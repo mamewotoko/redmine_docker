@@ -1,0 +1,22 @@
+version: '2'
+
+services:
+
+  redmine:
+    image: library/redmine:3.3
+    ports:
+      - 3000:3000
+    environment:
+      REDMINE_DB_MYSQL: db
+      REDMINE_DB_PASSWORD: example
+    depends_on:
+      - db
+    volumes:
+      - ./plugins:/usr/src/redmine/plugins
+    restart: always
+
+  db:
+    image: library/mariadb
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: redmine
