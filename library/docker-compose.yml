@@ -12,11 +12,13 @@ services:
     depends_on:
       - db
     volumes:
-      - ./plugins:/usr/src/redmine/plugins
+      - ./volume/redmine/plugins:/usr/src/redmine/plugins
     restart: always
 
   db:
     image: library/mariadb
+    volumes:
+      - ./volume/mariadb:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: redmine
