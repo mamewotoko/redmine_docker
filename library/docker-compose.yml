@@ -19,7 +19,7 @@ services:
     restart: always
 
   db:
-    image: library/mariadb
+    image: library/mariadb:5.5.56
     volumes:
       - ./volume/mariadb:/var/lib/mysql
     environment:
