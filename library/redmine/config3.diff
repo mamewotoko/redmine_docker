@@ -1,11 +1,13 @@
 diff --git a/config/environment.rb b/config/environment.rb
-index 705e4ec..fb013f0 100644
+index 705e4ec..b617510 100644
 --- a/config/environment.rb
 +++ b/config/environment.rb
-@@ -11,4 +11,6 @@ if Dir.glob(File.join(vendor_plugins_dir, "*")).any?
+@@ -11,4 +11,8 @@ if Dir.glob(File.join(vendor_plugins_dir, "*")).any?
  end
  
  # Initialize the Rails application
-+RedmineApp::Application.routes.default_scope = "/redmine" 
++#RedmineApp::Application.routes.default_scope = "/redmine" 
  Rails.application.initialize!
 +
++#Redmine::Utils::relative_url_root = "/redmine" 
++ActionController::Base.relative_url_root = "/redmine" 
