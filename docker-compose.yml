@@ -3,13 +3,18 @@ services:
   mariadb:
     image: 'bitnami/mariadb:latest'
     volumes:
-      - '/home/tak/dev/redmine/volume/mariadb:/bitnami/mariadb'
+      - './volume/mariadb:/bitnami/mariadb'
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes    
   redmine:
-    image: 'bitnami/redmine:latest'
+#    image: 'bitnami/redmine:latest'
+#    image: 'redmine_redmine:latest'
+    build: ./redmine
+    env_file: config.env
     ports:
       - '3000:3000'
     volumes:
-      - '/home/tak/dev/redmine/volume/redmine:/bitnami/redmine'
+      - './volume/redmine:/bitnami/redmine'
     depends_on:
       - mariadb
 volumes:

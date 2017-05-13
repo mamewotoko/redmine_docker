@@ -3,7 +3,8 @@ version: '2'
 services:
 
   redmine:
-    image: library/redmine:3.3
+#    image: library/redmine:3.3
+    build: ./redmine
     ports:
       - 3000:3000
     environment:
@@ -13,6 +14,8 @@ services:
       - db
     volumes:
       - ./volume/redmine/plugins:/usr/src/redmine/plugins
+      - ./volume/redmine/files:/usr/src/redmine/files
+      - ./volume/redmine/log:/var/log/redmine/redmine
     restart: always
 
   db:
@@ -22,3 +25,4 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: example
       MYSQL_DATABASE: redmine
+    restart: always

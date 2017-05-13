@@ -1,0 +1,9 @@
+diff --git a/config/environment.rb b/config/environment.rb
+index 705e4ec..65cfded 100644
+--- a/config/environment.rb
++++ b/config/environment.rb
+@@ -12,3 +12,4 @@ end
+ 
+ # Initialize the Rails application
+ Rails.application.initialize!
++Redmine::Utils::relative_url_root = "/redmine"

@@ -1,0 +1,11 @@
+diff --git a/config/environment.rb b/config/environment.rb
+index 705e4ec..aa7d73b 100644
+--- a/config/environment.rb
++++ b/config/environment.rb
+@@ -10,5 +10,6 @@ if Dir.glob(File.join(vendor_plugins_dir, "*")).any?
+   exit 1
+ end
+ 
++ActionController::Base.relative_url_root = "/redmine" 
+ # Initialize the Rails application
+ Rails.application.initialize!
