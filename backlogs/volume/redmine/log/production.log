@@ -1,0 +1,2670 @@
+Connecting to database specified by database.yml
+Creating scope :system. Overwriting existing method Enumeration.system.
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__2742877995789827215__prepare__1731941860706280254__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Migrating to Setup (1)
+Migrating to IssueMove (2)
+Migrating to IssueAddNote (3)
+Migrating to ExportPdf (4)
+Migrating to IssueStartDate (5)
+Migrating to CalendarAndActivity (6)
+Migrating to CreateJournals (7)
+Migrating to CreateUserPreferences (8)
+Migrating to AddHideMailPref (9)
+Migrating to CreateComments (10)
+Migrating to AddNewsCommentsCount (11)
+Migrating to AddCommentsPermissions (12)
+Migrating to CreateQueries (13)
+Migrating to AddQueriesPermissions (14)
+Migrating to CreateRepositories (15)
+Migrating to AddRepositoriesPermissions (16)
+Migrating to CreateSettings (17)
+Migrating to SetDocAndFilesNotifications (18)
+Migrating to AddIssueStatusPosition (19)
+Migrating to AddRolePosition (20)
+Migrating to AddTrackerPosition (21)
+Migrating to SerializePossiblesValues (22)
+Migrating to AddTrackerIsInRoadmap (23)
+Migrating to AddRoadmapPermission (24)
+Migrating to AddSearchPermission (25)
+Migrating to AddRepositoryLoginAndPassword (26)
+Migrating to CreateWikis (27)
+Migrating to CreateWikiPages (28)
+Migrating to CreateWikiContents (29)
+Migrating to AddProjectsFeedsPermissions (30)
+Migrating to AddRepositoryRootUrl (31)
+Migrating to CreateTimeEntries (32)
+Migrating to AddTimelogPermissions (33)
+Migrating to CreateChangesets (34)
+Migrating to CreateChanges (35)
+Migrating to AddChangesetCommitDate (36)
+Migrating to AddProjectIdentifier (37)
+Migrating to AddCustomFieldIsFilter (38)
+Migrating to CreateWatchers (39)
+Migrating to CreateChangesetsIssues (40)
+Migrating to RenameCommentToComments (41)
+Migrating to CreateIssueRelations (42)
+Migrating to AddRelationsPermissions (43)
+Migrating to SetLanguageLengthToFive (44)
+Migrating to CreateBoards (45)
+Migrating to CreateMessages (46)
+Migrating to AddBoardsPermissions (47)
+Migrating to AllowNullVersionEffectiveDate (48)
+Migrating to AddWikiDestroyPagePermission (49)
+Migrating to AddWikiAttachmentsPermissions (50)
+Migrating to AddProjectStatus (51)
+Migrating to AddChangesRevision (52)
+Migrating to AddChangesBranch (53)
+Migrating to AddChangesetsScmid (54)
+Migrating to AddRepositoriesType (55)
+Migrating to AddRepositoriesChangesPermission (56)
+Migrating to AddVersionsWikiPageTitle (57)
+Migrating to AddIssueCategoriesAssignedToId (58)
+Migrating to AddRolesAssignable (59)
+Migrating to ChangeChangesetsCommitterLimit (60)
+Migrating to AddRolesBuiltin (61)
+Migrating to InsertBuiltinRoles (62)
+Migrating to AddRolesPermissions (63)
+Migrating to DropPermissions (64)
+Migrating to AddSettingsUpdatedOn (65)
+Migrating to AddCustomValueCustomizedIndex (66)
+Migrating to CreateWikiRedirects (67)
+Migrating to CreateEnabledModules (68)
+Migrating to AddIssuesEstimatedHours (69)
+Migrating to ChangeAttachmentsContentTypeLimit (70)
+Migrating to AddQueriesColumnNames (71)
+Migrating to AddEnumerationsPosition (72)
+Migrating to AddEnumerationsIsDefault (73)
+Migrating to AddAuthSourcesTls (74)
+Migrating to AddMembersMailNotification (75)
+Migrating to AllowNullPosition (76)
+Migrating to RemoveIssueStatusesHtmlColor (77)
+Migrating to AddCustomFieldsPosition (78)
+Migrating to AddUserPreferencesTimeZone (79)
+Migrating to AddUsersType (80)
+Migrating to CreateProjectsTrackers (81)
+Migrating to AddMessagesLocked (82)
+Migrating to AddMessagesSticky (83)
+Migrating to ChangeAuthSourcesAccountLimit (84)
+Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+Migrating to AddCustomFieldsSearchable (86)
+Migrating to ChangeProjectsDescriptionToText (87)
+Migrating to AddCustomFieldsDefaultValue (88)
+Migrating to AddAttachmentsDescription (89)
+Migrating to ChangeVersionsNameLimit (90)
+Migrating to ChangeChangesetsRevisionToString (91)
+Migrating to ChangeChangesFromRevisionToString (92)
+Migrating to AddWikiPagesProtected (93)
+Migrating to ChangeProjectsHomepageLimit (94)
+Migrating to AddWikiPagesParentId (95)
+Migrating to AddCommitAccessPermission (96)
+Migrating to AddViewWikiEditsPermission (97)
+Migrating to SetTopicAuthorsAsWatchers (98)
+Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+Migrating to AddChangesetsUserId (100)
+Migrating to PopulateChangesetsUserId (101)
+Migrating to AddCustomFieldsEditable (102)
+Migrating to SetCustomFieldsEditable (103)
+Migrating to AddProjectsLftAndRgt (104)
+Migrating to BuildProjectsTree (105)
+Migrating to RemoveProjectsProjectsCount (106)
+Migrating to AddOpenIdAuthenticationTables (107)
+Migrating to AddIdentityUrlToUsers (108)
+Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+Migrating to AddQueriesSortCriteria (20090312172426)
+Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+Migrating to ExtendSettingsName (20090318181151)
+Migrating to AddTypeToEnumerations (20090323224724)
+Migrating to UpdateEnumerationsToSti (20090401221305)
+Migrating to AddActiveFieldToEnumerations (20090401231134)
+Migrating to AddProjectToEnumerations (20090403001910)
+Migrating to AddParentIdToEnumerations (20090406161854)
+Migrating to AddQueriesGroupBy (20090425161243)
+Migrating to CreateMemberRoles (20090503121501)
+Migrating to PopulateMemberRoles (20090503121505)
+Migrating to DropMembersRoleId (20090503121510)
+Migrating to FixMessagesStickyNull (20090614091200)
+Migrating to PopulateUsersType (20090704172350)
+Migrating to CreateGroupsUsers (20090704172355)
+Migrating to AddMemberRolesInheritedFrom (20090704172358)
+Migrating to FixUsersCustomValues (20091010093521)
+Migrating to AddMissingIndexesToWorkflows (20091017212227)
+Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+Migrating to AddMissingIndexesToMessages (20091017212644)
+Migrating to AddMissingIndexesToRepositories (20091017212938)
+Migrating to AddMissingIndexesToComments (20091017213027)
+Migrating to AddMissingIndexesToEnumerations (20091017213113)
+Migrating to AddMissingIndexesToWikiPages (20091017213151)
+Migrating to AddMissingIndexesToWatchers (20091017213228)
+Migrating to AddMissingIndexesToAuthSources (20091017213257)
+Migrating to AddMissingIndexesToDocuments (20091017213332)
+Migrating to AddMissingIndexesToTokens (20091017213444)
+Migrating to AddMissingIndexesToChangesets (20091017213536)
+Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+Migrating to AddMissingIndexesToBoards (20091017213757)
+Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+Migrating to AddMissingIndexesToIssues (20091017213910)
+Migrating to AddMissingIndexesToMembers (20091017214015)
+Migrating to AddMissingIndexesToCustomFields (20091017214107)
+Migrating to AddMissingIndexesToQueries (20091017214136)
+Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+Migrating to AddMissingIndexesToNews (20091017214308)
+Migrating to AddMissingIndexesToUsers (20091017214336)
+Migrating to AddMissingIndexesToAttachments (20091017214406)
+Migrating to AddMissingIndexesToWikiContents (20091017214440)
+Migrating to AddMissingIndexesToCustomValues (20091017214519)
+Migrating to AddMissingIndexesToJournals (20091017214611)
+Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+Migrating to AddActivityIndexes (20091025163651)
+Migrating to AddVersionsStatus (20091108092559)
+Migrating to AddViewIssuesPermission (20091114105931)
+Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+Migrating to AddVersionsSharing (20091205124427)
+Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+Migrating to AddIndexToSettingsName (20091220183727)
+Migrating to AddIndexesToIssueStatus (20091220184736)
+Migrating to RemoveEnumerationsOpt (20091225164732)
+Migrating to ChangeWikiContentsTextLimit (20091227112908)
+Migrating to ChangeUsersMailNotificationToString (20100129193402)
+Migrating to UpdateMailNotificationValues (20100129193813)
+Migrating to AddIndexOnChangesetsScmid (20100221100219)
+Migrating to AddIssuesNestedSetsColumns (20100313132032)
+Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+Migrating to ChangeChangesPathLengthLimit (20100705164950)
+Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+Migrating to AddUniqueIndexOnMembers (20101104182107)
+Migrating to AddCustomFieldsVisible (20101107130441)
+Migrating to ChangeProjectsNameLimit (20101114115114)
+Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+Migrating to AddUsersSalt (20110223180944)
+Migrating to SaltUserPasswords (20110223180953)
+Migrating to AddRepositoriesPathEncoding (20110224000000)
+Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+Migrating to AddRepositoriesLogEncoding (20110228000000)
+Migrating to CopyRepositoriesLogEncoding (20110228000100)
+Migrating to AddIndexToUsersType (20110401192910)
+Migrating to AddRolesIssuesVisibility (20110408103312)
+Migrating to AddIssuesIsPrivate (20110412065600)
+Migrating to AddRepositoriesExtraInfo (20110511000000)
+Migrating to CreateChangesetParents (20110902000000)
+Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+Migrating to AddRepositoriesIdentifier (20120115143024)
+Migrating to AddRepositoriesIsDefault (20120115143100)
+Migrating to SetDefaultRepositories (20120115143126)
+Migrating to AddCustomFieldsMultiple (20120127174243)
+Migrating to ChangeUsersLoginLimit (20120205111326)
+Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+Migrating to AddAuthSourcesFilter (20120301153455)
+Migrating to ChangeRepositoriesToFullSti (20120422150750)
+Migrating to AddTrackersFieldsBits (20120705074331)
+Migrating to AddAuthSourcesTimeout (20120707064544)
+Migrating to AddWorkflowsType (20120714122000)
+Migrating to UpdateWorkflowsToSti (20120714122100)
+Migrating to AddWorkflowsRuleFields (20120714122200)
+Migrating to AddBoardsParentId (20120731164049)
+Migrating to AddJournalsPrivateNotes (20120930112914)
+Migrating to AddEnumerationsPositionName (20121026002032)
+Migrating to PopulateEnumerationsPositionName (20121026003537)
+Migrating to AddQueriesType (20121209123234)
+Migrating to UpdateQueriesToSti (20121209123358)
+Migrating to AddAttachmentsDiskDirectory (20121213084931)
+Migrating to SplitDocumentsPermissions (20130110122628)
+Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+Migrating to AddProjectsInheritMembers (20130202090625)
+Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+Migrating to AddIssuesClosedOn (20130215111127)
+Migrating to PopulateIssuesClosedOn (20130215111141)
+Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+Migrating to CreateQueriesRoles (20130602092539)
+Migrating to AddQueriesVisibility (20130710182539)
+Migrating to CreateCustomFieldsRoles (20130713104233)
+Migrating to AddQueriesOptions (20130713111657)
+Migrating to AddUsersMustChangePasswd (20130729070143)
+Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+Migrating to SupportForMultipleCommitKeywords (20131004113137)
+Migrating to AddRepositoriesCreatedOn (20131005100610)
+Migrating to AddCustomFieldsFormatStore (20131124175346)
+Migrating to AddCustomFieldsDescription (20131210180802)
+Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+Migrating to AddPasswordChangedAtToUser (20140903143914)
+Migrating to InsertBuiltinGroups (20140920094058)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__2551273050567907000__prepare__2120049925607003576__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__2088027135078649551__prepare__1531128307113773351__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__3999676438694718042__prepare__4141562565236639069__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__437902863739533855__prepare__3521917242015894306__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__1962476994943362636__prepare__905926180357545111__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__836447416005734484__prepare__827480145007011373__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__777901281763660564__prepare__3767885194122869119__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Started GET "/" for 192.168.209.1 at 2017-05-15 08:15:20 +0000
+Processing by WelcomeController#index as HTML
+  Current user: anonymous
+  Rendered welcome/index.html.erb within layouts/base (90.5ms)
+Completed 200 OK in 679.4ms (Views: 199.2ms | ActiveRecord: 39.3ms)
+Started GET "/login" for 192.168.209.1 at 2017-05-15 08:15:24 +0000
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendered account/login.html.erb within layouts/base (5.6ms)
+Completed 200 OK in 19.3ms (Views: 16.0ms | ActiveRecord: 1.0ms)
+Started POST "/login" for 192.168.209.1 at 2017-05-15 08:15:28 +0000
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KrBeug2eNQ7vMJnVPG8xaXnDHZI4YjVc8XAmHRbfT4M=", "back_url"=>"http://vm:3000/", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン »"}
+  Current user: anonymous
+Successful authentication for 'admin' from 192.168.209.1 at 2017-05-15 08:15:28 UTC
+Redirected to http://vm:3000/
+Completed 302 Found in 9.7ms (ActiveRecord: 3.6ms)
+Started GET "/" for 192.168.209.1 at 2017-05-15 08:15:28 +0000
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendered welcome/index.html.erb within layouts/base (30.0ms)
+Completed 200 OK in 65.4ms (Views: 49.6ms | ActiveRecord: 9.6ms)
+Started GET "/my/page" for 192.168.209.1 at 2017-05-15 08:15:35 +0000
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendered issues/_list_simple.html.erb (1.0ms)
+  Rendered my/blocks/_issuesassignedtome.html.erb (29.7ms)
+  Rendered issues/_list_simple.html.erb (0.1ms)
+  Rendered my/blocks/_issuesreportedbyme.html.erb (6.8ms)
+  Rendered my/page.html.erb within layouts/base (47.2ms)
+Completed 200 OK in 67.8ms (Views: 57.0ms | ActiveRecord: 6.3ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:15:37 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (7.0ms)
+Completed 200 OK in 27.3ms (Views: 21.1ms | ActiveRecord: 1.8ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:15:42 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_no_data.html.erb (1314.7ms)
+  Rendered admin/_menu.html.erb (4.1ms)
+  Rendered admin/index.html.erb within layouts/admin (1322.5ms)
+  Rendered layouts/base.html.erb (9.5ms)
+Completed 200 OK in 1347.8ms (Views: 1337.6ms | ActiveRecord: 1.9ms)
+Started POST "/admin/default_configuration" for 192.168.209.1 at 2017-05-15 08:15:49 +0000
+Processing by AdminController#default_configuration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YCSOJw7J8rcDKs2tQiavbvma5vY+75s1h+H/9351JH8=", "lang"=>"en", "commit"=>"デフォルト設定をロード"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/admin
+Completed 302 Found in 802.4ms (ActiveRecord: 100.1ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:15:50 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_menu.html.erb (2.9ms)
+  Rendered admin/index.html.erb within layouts/admin (3.2ms)
+  Rendered layouts/base.html.erb (8.3ms)
+Completed 200 OK in 15.7ms (Views: 11.6ms | ActiveRecord: 1.1ms)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Backlogs printable cards: problem loading labels: No such file or directory @ rb_sysopen - /usr/src/redmine/plugins/redmine_backlogs/lib/labels/labels.yaml
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `initialize'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `open'
+/usr/local/lib/ruby/2.2.0/psych.rb:464:in `load_file'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:225:in `<class:CardPageLayout>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:57:in `<module:BacklogsPrintableCards>'
+/usr/src/redmine/plugins/redmine_backlogs/lib/backlogs_printable_cards.rb:56:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:359:in `require_or_load'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:313:in `depend_on'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:225:in `require_dependency'
+/usr/src/redmine/plugins/redmine_backlogs/init.rb:44:in `block in <top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:429:in `_run__2968544020340071568__prepare__1548610831402461664__callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:405:in `__run_callback'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:385:in `_run_prepare_callbacks'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:74:in `prepare!'
+/usr/local/bundle/gems/actionpack-3.2.22/lib/action_dispatch/middleware/reloader.rb:48:in `prepare!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application/finisher.rb:47:in `block in <module:Finisher>'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `instance_exec'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:30:in `run'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:55:in `block in run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `each'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/initializable.rb:54:in `run_initializers'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:136:in `initialize!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/railtie/configurable.rb:30:in `method_missing'
+/usr/src/redmine/config/environment.rb:14:in `<top (required)>'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `block in require'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:236:in `load_dependency'
+/usr/local/bundle/gems/activesupport-3.2.22/lib/active_support/dependencies.rb:251:in `require'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:103:in `require_environment!'
+/usr/local/bundle/gems/railties-3.2.22/lib/rails/application.rb:305:in `block (2 levels) in initialize_tasks'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `call'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:240:in `block in execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:235:in `execute'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:179:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:201:in `block in invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `each'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:199:in `invoke_prerequisites'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:178:in `block in invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:172:in `invoke_with_call_chain'
+/usr/local/lib/ruby/2.2.0/rake/task.rb:165:in `invoke'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:150:in `invoke_task'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block (2 levels) in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `each'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:106:in `block in top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:115:in `run_with_threads'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:100:in `top_level'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:78:in `block in run'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:176:in `standard_exception_handling'
+/usr/local/lib/ruby/2.2.0/rake/application.rb:75:in `run'
+/usr/local/lib/ruby/gems/2.2.0/gems/rake-10.4.2/bin/rake:33:in `<top (required)>'
+/usr/local/bundle/bin/rake:16:in `load'
+/usr/local/bundle/bin/rake:16:in `<main>'
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to CreateStoriesTasksSprintsAndBurndown (11)
+Migrating to MigrateLegacy (12)
+Migrating to OrderTasksUsingTree (15)
+Migrating to ChangeIssuePositionColumn (17)
+Migrating to AddReleaseTables (19)
+Migrating to NullTaskPosition (23)
+Migrating to ReinstateRemaining (24)
+Migrating to FractionalPoints (25)
+Migrating to AddStoryPositions (26)
+Migrating to AddIndexOnIssuesPosition (27)
+Migrating to SumRemainingHours (29)
+Migrating to UniquePositions (33)
+Migrating to TrustUniquePositions (36)
+Migrating to AddRbProjectSettings (37)
+Migrating to RbAddHistory (38)
+Migrating to AddShowInScrumStatsProjectSetting (39)
+Migrating to AddReleaseIdToIssues (40)
+Migrating to AddSharingToReleases (41)
+Migrating to MigrateReleases (42)
+Migrating to AddReleasesPlannedVelocity (43)
+Migrating to AddReleaseRelationshipToIssues (44)
+Migrating to DropReleaseBurndownDays (45)
+Migrating to AddReleasesIndexes (46)
+Migrating to AddIssuesRbcache (47)
+Migrating to AddIssuesReleaseDayCache (48)
+Migrating to AddReleaseMultiview (49)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:17:34 +0000
+Processing by AdminController#index as HTML
+Settings cache cleared.
+  Current user: admin (id=1)
+  Rendered admin/_menu.html.erb (3.2ms)
+  Rendered admin/index.html.erb within layouts/admin (3.6ms)
+  Rendered layouts/base.html.erb (20.4ms)
+Completed 200 OK in 33.6ms (Views: 23.8ms | ActiveRecord: 4.6ms)
+Started GET "/" for 192.168.209.1 at 2017-05-15 08:17:37 +0000
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendered welcome/index.html.erb within layouts/base (3.6ms)
+Completed 200 OK in 20.7ms (Views: 11.8ms | ActiveRecord: 2.6ms)
+Started GET "/my/page" for 192.168.209.1 at 2017-05-15 08:17:38 +0000
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendered issues/_list_simple.html.erb (0.1ms)
+  Rendered my/blocks/_issuesassignedtome.html.erb (10.6ms)
+  Rendered issues/_list_simple.html.erb (0.1ms)
+  Rendered my/blocks/_issuesreportedbyme.html.erb (5.2ms)
+  Rendered my/page.html.erb within layouts/base (17.7ms)
+Completed 200 OK in 29.5ms (Views: 23.5ms | ActiveRecord: 3.4ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:17:39 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (3.6ms)
+Completed 200 OK in 15.8ms (Views: 11.8ms | ActiveRecord: 1.3ms)
+Started GET "/projects/new" for 192.168.209.1 at 2017-05-15 08:17:41 +0000
+Processing by ProjectsController#new as HTML
+  Current user: admin (id=1)
+  Rendered projects/_form.html.erb (18.0ms)
+  Rendered projects/new.html.erb within layouts/base (24.2ms)
+Completed 200 OK in 63.3ms (Views: 33.8ms | ActiveRecord: 4.1ms)
+Started POST "/projects" for 192.168.209.1 at 2017-05-15 08:17:45 +0000
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YCSOJw7J8rcDKs2tQiavbvma5vY+75s1h+H/9351JH8=", "project"=>{"name"=>"test", "description"=>"", "identifier"=>"test", "homepage"=>"", "is_public"=>"1", "inherit_members"=>"0", "enabled_module_names"=>["issue_tracking", "time_tracking", "news", "documents", "files", "wiki", "repository", "boards", "calendar", "gantt", ""], "tracker_ids"=>["1", "2", "3", "4", ""]}, "commit"=>"作成"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/projects/test/settings
+Expire fragment views/vm:3000/robots.txt 0.2ms
+Completed 302 Found in 102.7ms (ActiveRecord: 14.2ms)
+Started GET "/projects/test/settings" for 192.168.209.1 at 2017-05-15 08:17:45 +0000
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_form.html.erb (13.5ms)
+  Rendered projects/_edit.html.erb (15.6ms)
+  Rendered projects/settings/_modules.html.erb (3.5ms)
+  Rendered projects/settings/_members.html.erb (32.3ms)
+  Rendered projects/settings/_versions.html.erb (10.8ms)
+  Rendered projects/settings/_issue_categories.html.erb (4.9ms)
+  Rendered projects/settings/_wiki.html.erb (2.6ms)
+  Rendered projects/settings/_repositories.html.erb (6.2ms)
+  Rendered projects/settings/_boards.html.erb (6.3ms)
+  Rendered projects/settings/_activities.html.erb (21.9ms)
+  Rendered common/_tabs.html.erb (126.2ms)
+  Rendered projects/settings.html.erb within layouts/base (128.3ms)
+Completed 200 OK in 170.1ms (Views: 139.3ms | ActiveRecord: 12.5ms)
+Started GET "/projects/test/issues/new" for 192.168.209.1 at 2017-05-15 08:17:48 +0000
+Processing by IssuesController#new as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered issues/_form_custom_fields.html.erb (7.2ms)
+  Rendered issues/_attributes.html.erb (27.9ms)
+  Rendered issues/_form.html.erb (43.4ms)
+  Rendered attachments/_form.html.erb (5.3ms)
+  Rendered issues/new.html.erb within layouts/base (57.6ms)
+Completed 200 OK in 171.4ms (Views: 77.6ms | ActiveRecord: 10.9ms)
+Started GET "/projects/test/issues" for 192.168.209.1 at 2017-05-15 08:17:49 +0000
+Processing by IssuesController#index as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered queries/_filters.html.erb (15.1ms)
+  Rendered queries/_columns.html.erb (4.7ms)
+  Rendered issues/_sidebar.html.erb (5.9ms)
+  Rendered issues/index.html.erb within layouts/base (61.6ms)
+Completed 200 OK in 149.4ms (Views: 79.8ms | ActiveRecord: 10.4ms)
+Started GET "/projects/test/settings" for 192.168.209.1 at 2017-05-15 08:17:51 +0000
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_form.html.erb (11.5ms)
+  Rendered projects/_edit.html.erb (12.6ms)
+  Rendered projects/settings/_modules.html.erb (2.4ms)
+  Rendered projects/settings/_members.html.erb (8.5ms)
+  Rendered projects/settings/_versions.html.erb (2.7ms)
+  Rendered projects/settings/_issue_categories.html.erb (1.2ms)
+  Rendered projects/settings/_wiki.html.erb (1.5ms)
+  Rendered projects/settings/_repositories.html.erb (1.4ms)
+  Rendered projects/settings/_boards.html.erb (1.1ms)
+  Rendered projects/settings/_activities.html.erb (7.1ms)
+  Rendered common/_tabs.html.erb (43.2ms)
+  Rendered projects/settings.html.erb within layouts/base (43.8ms)
+Completed 200 OK in 81.3ms (Views: 65.9ms | ActiveRecord: 7.2ms)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to Setup (1)
+Migrating to IssueMove (2)
+Migrating to IssueAddNote (3)
+Migrating to ExportPdf (4)
+Migrating to IssueStartDate (5)
+Migrating to CalendarAndActivity (6)
+Migrating to CreateJournals (7)
+Migrating to CreateUserPreferences (8)
+Migrating to AddHideMailPref (9)
+Migrating to CreateComments (10)
+Migrating to AddNewsCommentsCount (11)
+Migrating to AddCommentsPermissions (12)
+Migrating to CreateQueries (13)
+Migrating to AddQueriesPermissions (14)
+Migrating to CreateRepositories (15)
+Migrating to AddRepositoriesPermissions (16)
+Migrating to CreateSettings (17)
+Migrating to SetDocAndFilesNotifications (18)
+Migrating to AddIssueStatusPosition (19)
+Migrating to AddRolePosition (20)
+Migrating to AddTrackerPosition (21)
+Migrating to SerializePossiblesValues (22)
+Migrating to AddTrackerIsInRoadmap (23)
+Migrating to AddRoadmapPermission (24)
+Migrating to AddSearchPermission (25)
+Migrating to AddRepositoryLoginAndPassword (26)
+Migrating to CreateWikis (27)
+Migrating to CreateWikiPages (28)
+Migrating to CreateWikiContents (29)
+Migrating to AddProjectsFeedsPermissions (30)
+Migrating to AddRepositoryRootUrl (31)
+Migrating to CreateTimeEntries (32)
+Migrating to AddTimelogPermissions (33)
+Migrating to CreateChangesets (34)
+Migrating to CreateChanges (35)
+Migrating to AddChangesetCommitDate (36)
+Migrating to AddProjectIdentifier (37)
+Migrating to AddCustomFieldIsFilter (38)
+Migrating to CreateWatchers (39)
+Migrating to CreateChangesetsIssues (40)
+Migrating to RenameCommentToComments (41)
+Migrating to CreateIssueRelations (42)
+Migrating to AddRelationsPermissions (43)
+Migrating to SetLanguageLengthToFive (44)
+Migrating to CreateBoards (45)
+Migrating to CreateMessages (46)
+Migrating to AddBoardsPermissions (47)
+Migrating to AllowNullVersionEffectiveDate (48)
+Migrating to AddWikiDestroyPagePermission (49)
+Migrating to AddWikiAttachmentsPermissions (50)
+Migrating to AddProjectStatus (51)
+Migrating to AddChangesRevision (52)
+Migrating to AddChangesBranch (53)
+Migrating to AddChangesetsScmid (54)
+Migrating to AddRepositoriesType (55)
+Migrating to AddRepositoriesChangesPermission (56)
+Migrating to AddVersionsWikiPageTitle (57)
+Migrating to AddIssueCategoriesAssignedToId (58)
+Migrating to AddRolesAssignable (59)
+Migrating to ChangeChangesetsCommitterLimit (60)
+Migrating to AddRolesBuiltin (61)
+Migrating to InsertBuiltinRoles (62)
+Migrating to AddRolesPermissions (63)
+Migrating to DropPermissions (64)
+Migrating to AddSettingsUpdatedOn (65)
+Migrating to AddCustomValueCustomizedIndex (66)
+Migrating to CreateWikiRedirects (67)
+Migrating to CreateEnabledModules (68)
+Migrating to AddIssuesEstimatedHours (69)
+Migrating to ChangeAttachmentsContentTypeLimit (70)
+Migrating to AddQueriesColumnNames (71)
+Migrating to AddEnumerationsPosition (72)
+Migrating to AddEnumerationsIsDefault (73)
+Migrating to AddAuthSourcesTls (74)
+Migrating to AddMembersMailNotification (75)
+Migrating to AllowNullPosition (76)
+Migrating to RemoveIssueStatusesHtmlColor (77)
+Migrating to AddCustomFieldsPosition (78)
+Migrating to AddUserPreferencesTimeZone (79)
+Migrating to AddUsersType (80)
+Migrating to CreateProjectsTrackers (81)
+Migrating to AddMessagesLocked (82)
+Migrating to AddMessagesSticky (83)
+Migrating to ChangeAuthSourcesAccountLimit (84)
+Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+Migrating to AddCustomFieldsSearchable (86)
+Migrating to ChangeProjectsDescriptionToText (87)
+Migrating to AddCustomFieldsDefaultValue (88)
+Migrating to AddAttachmentsDescription (89)
+Migrating to ChangeVersionsNameLimit (90)
+Migrating to ChangeChangesetsRevisionToString (91)
+Migrating to ChangeChangesFromRevisionToString (92)
+Migrating to AddWikiPagesProtected (93)
+Migrating to ChangeProjectsHomepageLimit (94)
+Migrating to AddWikiPagesParentId (95)
+Migrating to AddCommitAccessPermission (96)
+Migrating to AddViewWikiEditsPermission (97)
+Migrating to SetTopicAuthorsAsWatchers (98)
+Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+Migrating to AddChangesetsUserId (100)
+Migrating to PopulateChangesetsUserId (101)
+Migrating to AddCustomFieldsEditable (102)
+Migrating to SetCustomFieldsEditable (103)
+Migrating to AddProjectsLftAndRgt (104)
+Migrating to BuildProjectsTree (105)
+Migrating to RemoveProjectsProjectsCount (106)
+Migrating to AddOpenIdAuthenticationTables (107)
+Migrating to AddIdentityUrlToUsers (108)
+Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+Migrating to AddQueriesSortCriteria (20090312172426)
+Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+Migrating to ExtendSettingsName (20090318181151)
+Migrating to AddTypeToEnumerations (20090323224724)
+Migrating to UpdateEnumerationsToSti (20090401221305)
+Migrating to AddActiveFieldToEnumerations (20090401231134)
+Migrating to AddProjectToEnumerations (20090403001910)
+Migrating to AddParentIdToEnumerations (20090406161854)
+Migrating to AddQueriesGroupBy (20090425161243)
+Migrating to CreateMemberRoles (20090503121501)
+Migrating to PopulateMemberRoles (20090503121505)
+Migrating to DropMembersRoleId (20090503121510)
+Migrating to FixMessagesStickyNull (20090614091200)
+Migrating to PopulateUsersType (20090704172350)
+Migrating to CreateGroupsUsers (20090704172355)
+Migrating to AddMemberRolesInheritedFrom (20090704172358)
+Migrating to FixUsersCustomValues (20091010093521)
+Migrating to AddMissingIndexesToWorkflows (20091017212227)
+Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+Migrating to AddMissingIndexesToMessages (20091017212644)
+Migrating to AddMissingIndexesToRepositories (20091017212938)
+Migrating to AddMissingIndexesToComments (20091017213027)
+Migrating to AddMissingIndexesToEnumerations (20091017213113)
+Migrating to AddMissingIndexesToWikiPages (20091017213151)
+Migrating to AddMissingIndexesToWatchers (20091017213228)
+Migrating to AddMissingIndexesToAuthSources (20091017213257)
+Migrating to AddMissingIndexesToDocuments (20091017213332)
+Migrating to AddMissingIndexesToTokens (20091017213444)
+Migrating to AddMissingIndexesToChangesets (20091017213536)
+Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+Migrating to AddMissingIndexesToBoards (20091017213757)
+Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+Migrating to AddMissingIndexesToIssues (20091017213910)
+Migrating to AddMissingIndexesToMembers (20091017214015)
+Migrating to AddMissingIndexesToCustomFields (20091017214107)
+Migrating to AddMissingIndexesToQueries (20091017214136)
+Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+Migrating to AddMissingIndexesToNews (20091017214308)
+Migrating to AddMissingIndexesToUsers (20091017214336)
+Migrating to AddMissingIndexesToAttachments (20091017214406)
+Migrating to AddMissingIndexesToWikiContents (20091017214440)
+Migrating to AddMissingIndexesToCustomValues (20091017214519)
+Migrating to AddMissingIndexesToJournals (20091017214611)
+Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+Migrating to AddActivityIndexes (20091025163651)
+Migrating to AddVersionsStatus (20091108092559)
+Migrating to AddViewIssuesPermission (20091114105931)
+Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+Migrating to AddVersionsSharing (20091205124427)
+Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+Migrating to AddIndexToSettingsName (20091220183727)
+Migrating to AddIndexesToIssueStatus (20091220184736)
+Migrating to RemoveEnumerationsOpt (20091225164732)
+Migrating to ChangeWikiContentsTextLimit (20091227112908)
+Migrating to ChangeUsersMailNotificationToString (20100129193402)
+Migrating to UpdateMailNotificationValues (20100129193813)
+Migrating to AddIndexOnChangesetsScmid (20100221100219)
+Migrating to AddIssuesNestedSetsColumns (20100313132032)
+Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+Migrating to ChangeChangesPathLengthLimit (20100705164950)
+Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+Migrating to AddUniqueIndexOnMembers (20101104182107)
+Migrating to AddCustomFieldsVisible (20101107130441)
+Migrating to ChangeProjectsNameLimit (20101114115114)
+Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+Migrating to AddUsersSalt (20110223180944)
+Migrating to SaltUserPasswords (20110223180953)
+Migrating to AddRepositoriesPathEncoding (20110224000000)
+Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+Migrating to AddRepositoriesLogEncoding (20110228000000)
+Migrating to CopyRepositoriesLogEncoding (20110228000100)
+Migrating to AddIndexToUsersType (20110401192910)
+Migrating to AddRolesIssuesVisibility (20110408103312)
+Migrating to AddIssuesIsPrivate (20110412065600)
+Migrating to AddRepositoriesExtraInfo (20110511000000)
+Migrating to CreateChangesetParents (20110902000000)
+Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+Migrating to AddRepositoriesIdentifier (20120115143024)
+Migrating to AddRepositoriesIsDefault (20120115143100)
+Migrating to SetDefaultRepositories (20120115143126)
+Migrating to AddCustomFieldsMultiple (20120127174243)
+Migrating to ChangeUsersLoginLimit (20120205111326)
+Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+Migrating to AddAuthSourcesFilter (20120301153455)
+Migrating to ChangeRepositoriesToFullSti (20120422150750)
+Migrating to AddTrackersFieldsBits (20120705074331)
+Migrating to AddAuthSourcesTimeout (20120707064544)
+Migrating to AddWorkflowsType (20120714122000)
+Migrating to UpdateWorkflowsToSti (20120714122100)
+Migrating to AddWorkflowsRuleFields (20120714122200)
+Migrating to AddBoardsParentId (20120731164049)
+Migrating to AddJournalsPrivateNotes (20120930112914)
+Migrating to AddEnumerationsPositionName (20121026002032)
+Migrating to PopulateEnumerationsPositionName (20121026003537)
+Migrating to AddQueriesType (20121209123234)
+Migrating to UpdateQueriesToSti (20121209123358)
+Migrating to AddAttachmentsDiskDirectory (20121213084931)
+Migrating to SplitDocumentsPermissions (20130110122628)
+Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+Migrating to AddProjectsInheritMembers (20130202090625)
+Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+Migrating to AddIssuesClosedOn (20130215111127)
+Migrating to PopulateIssuesClosedOn (20130215111141)
+Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+Migrating to CreateQueriesRoles (20130602092539)
+Migrating to AddQueriesVisibility (20130710182539)
+Migrating to CreateCustomFieldsRoles (20130713104233)
+Migrating to AddQueriesOptions (20130713111657)
+Migrating to AddUsersMustChangePasswd (20130729070143)
+Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+Migrating to SupportForMultipleCommitKeywords (20131004113137)
+Migrating to AddRepositoriesCreatedOn (20131005100610)
+Migrating to AddCustomFieldsFormatStore (20131124175346)
+Migrating to AddCustomFieldsDescription (20131210180802)
+Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+Migrating to AddPasswordChangedAtToUser (20140903143914)
+Migrating to InsertBuiltinGroups (20140920094058)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/projects/test/settings/categories" for 192.168.209.1 at 2017-05-15 08:29:08 +0000
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"test", "tab"=>"categories"}
+  Current user: anonymous
+  Rendered common/error.html.erb within layouts/base (2.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (29.0ms)
+Filter chain halted as :find_project rendered or redirected
+Completed 404 Not Found in 272.0ms (Views: 88.2ms | ActiveRecord: 36.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:08 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: anonymous
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 7.2ms (ActiveRecord: 1.0ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:09 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: anonymous
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 2.6ms (ActiveRecord: 0.5ms)
+Started GET "/login" for 192.168.209.1 at 2017-05-15 08:29:12 +0000
+Processing by AccountController#login as HTML
+  Current user: anonymous
+  Rendered account/login.html.erb within layouts/base (6.9ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (7.9ms)
+Completed 200 OK in 42.1ms (Views: 37.2ms | ActiveRecord: 2.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:12 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: anonymous
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 9.4ms (ActiveRecord: 1.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:13 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: anonymous
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 2.5ms (ActiveRecord: 0.7ms)
+Started POST "/login" for 192.168.209.1 at 2017-05-15 08:29:14 +0000
+Processing by AccountController#login as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oQFzrd3oYIZlozces1MlxfKzoR1US7HovRO1/I9IkBA=", "back_url"=>"http://vm:3000/projects/test/settings/categories", "username"=>"admin", "password"=>"[FILTERED]", "login"=>"ログイン »"}
+  Current user: anonymous
+Successful authentication for 'admin' from 192.168.209.1 at 2017-05-15 08:29:14 UTC
+Redirected to http://vm:3000/projects/test/settings/categories
+Completed 302 Found in 16.2ms (ActiveRecord: 6.4ms)
+Started GET "/projects/test/settings/categories" for 192.168.209.1 at 2017-05-15 08:29:14 +0000
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"test", "tab"=>"categories"}
+  Current user: admin (id=1)
+  Rendered common/error.html.erb within layouts/base (0.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (25.1ms)
+Filter chain halted as :find_project rendered or redirected
+Completed 404 Not Found in 88.8ms (Views: 69.6ms | ActiveRecord: 11.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:14 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 7.0ms (ActiveRecord: 0.6ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:29:23 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_no_data.html.erb (1327.4ms)
+  Rendered admin/_menu.html.erb (5.2ms)
+  Rendered admin/index.html.erb within layouts/admin (1340.3ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.7ms)
+  Rendered layouts/base.html.erb (31.7ms)
+Completed 200 OK in 1399.4ms (Views: 1381.3ms | ActiveRecord: 7.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:24 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 5.8ms (ActiveRecord: 0.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:29:24 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 3.1ms (ActiveRecord: 0.5ms)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to Setup (1)
+Migrating to IssueMove (2)
+Migrating to IssueAddNote (3)
+Migrating to ExportPdf (4)
+Migrating to IssueStartDate (5)
+Migrating to CalendarAndActivity (6)
+Migrating to CreateJournals (7)
+Migrating to CreateUserPreferences (8)
+Migrating to AddHideMailPref (9)
+Migrating to CreateComments (10)
+Migrating to AddNewsCommentsCount (11)
+Migrating to AddCommentsPermissions (12)
+Migrating to CreateQueries (13)
+Migrating to AddQueriesPermissions (14)
+Migrating to CreateRepositories (15)
+Migrating to AddRepositoriesPermissions (16)
+Migrating to CreateSettings (17)
+Migrating to SetDocAndFilesNotifications (18)
+Migrating to AddIssueStatusPosition (19)
+Migrating to AddRolePosition (20)
+Migrating to AddTrackerPosition (21)
+Migrating to SerializePossiblesValues (22)
+Migrating to AddTrackerIsInRoadmap (23)
+Migrating to AddRoadmapPermission (24)
+Migrating to AddSearchPermission (25)
+Migrating to AddRepositoryLoginAndPassword (26)
+Migrating to CreateWikis (27)
+Migrating to CreateWikiPages (28)
+Migrating to CreateWikiContents (29)
+Migrating to AddProjectsFeedsPermissions (30)
+Migrating to AddRepositoryRootUrl (31)
+Migrating to CreateTimeEntries (32)
+Migrating to AddTimelogPermissions (33)
+Migrating to CreateChangesets (34)
+Migrating to CreateChanges (35)
+Migrating to AddChangesetCommitDate (36)
+Migrating to AddProjectIdentifier (37)
+Migrating to AddCustomFieldIsFilter (38)
+Migrating to CreateWatchers (39)
+Migrating to CreateChangesetsIssues (40)
+Migrating to RenameCommentToComments (41)
+Migrating to CreateIssueRelations (42)
+Migrating to AddRelationsPermissions (43)
+Migrating to SetLanguageLengthToFive (44)
+Migrating to CreateBoards (45)
+Migrating to CreateMessages (46)
+Migrating to AddBoardsPermissions (47)
+Migrating to AllowNullVersionEffectiveDate (48)
+Migrating to AddWikiDestroyPagePermission (49)
+Migrating to AddWikiAttachmentsPermissions (50)
+Migrating to AddProjectStatus (51)
+Migrating to AddChangesRevision (52)
+Migrating to AddChangesBranch (53)
+Migrating to AddChangesetsScmid (54)
+Migrating to AddRepositoriesType (55)
+Migrating to AddRepositoriesChangesPermission (56)
+Migrating to AddVersionsWikiPageTitle (57)
+Migrating to AddIssueCategoriesAssignedToId (58)
+Migrating to AddRolesAssignable (59)
+Migrating to ChangeChangesetsCommitterLimit (60)
+Migrating to AddRolesBuiltin (61)
+Migrating to InsertBuiltinRoles (62)
+Migrating to AddRolesPermissions (63)
+Migrating to DropPermissions (64)
+Migrating to AddSettingsUpdatedOn (65)
+Migrating to AddCustomValueCustomizedIndex (66)
+Migrating to CreateWikiRedirects (67)
+Migrating to CreateEnabledModules (68)
+Migrating to AddIssuesEstimatedHours (69)
+Migrating to ChangeAttachmentsContentTypeLimit (70)
+Migrating to AddQueriesColumnNames (71)
+Migrating to AddEnumerationsPosition (72)
+Migrating to AddEnumerationsIsDefault (73)
+Migrating to AddAuthSourcesTls (74)
+Migrating to AddMembersMailNotification (75)
+Migrating to AllowNullPosition (76)
+Migrating to RemoveIssueStatusesHtmlColor (77)
+Migrating to AddCustomFieldsPosition (78)
+Migrating to AddUserPreferencesTimeZone (79)
+Migrating to AddUsersType (80)
+Migrating to CreateProjectsTrackers (81)
+Migrating to AddMessagesLocked (82)
+Migrating to AddMessagesSticky (83)
+Migrating to ChangeAuthSourcesAccountLimit (84)
+Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+Migrating to AddCustomFieldsSearchable (86)
+Migrating to ChangeProjectsDescriptionToText (87)
+Migrating to AddCustomFieldsDefaultValue (88)
+Migrating to AddAttachmentsDescription (89)
+Migrating to ChangeVersionsNameLimit (90)
+Migrating to ChangeChangesetsRevisionToString (91)
+Migrating to ChangeChangesFromRevisionToString (92)
+Migrating to AddWikiPagesProtected (93)
+Migrating to ChangeProjectsHomepageLimit (94)
+Migrating to AddWikiPagesParentId (95)
+Migrating to AddCommitAccessPermission (96)
+Migrating to AddViewWikiEditsPermission (97)
+Migrating to SetTopicAuthorsAsWatchers (98)
+Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+Migrating to AddChangesetsUserId (100)
+Migrating to PopulateChangesetsUserId (101)
+Migrating to AddCustomFieldsEditable (102)
+Migrating to SetCustomFieldsEditable (103)
+Migrating to AddProjectsLftAndRgt (104)
+Migrating to BuildProjectsTree (105)
+Migrating to RemoveProjectsProjectsCount (106)
+Migrating to AddOpenIdAuthenticationTables (107)
+Migrating to AddIdentityUrlToUsers (108)
+Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+Migrating to AddQueriesSortCriteria (20090312172426)
+Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+Migrating to ExtendSettingsName (20090318181151)
+Migrating to AddTypeToEnumerations (20090323224724)
+Migrating to UpdateEnumerationsToSti (20090401221305)
+Migrating to AddActiveFieldToEnumerations (20090401231134)
+Migrating to AddProjectToEnumerations (20090403001910)
+Migrating to AddParentIdToEnumerations (20090406161854)
+Migrating to AddQueriesGroupBy (20090425161243)
+Migrating to CreateMemberRoles (20090503121501)
+Migrating to PopulateMemberRoles (20090503121505)
+Migrating to DropMembersRoleId (20090503121510)
+Migrating to FixMessagesStickyNull (20090614091200)
+Migrating to PopulateUsersType (20090704172350)
+Migrating to CreateGroupsUsers (20090704172355)
+Migrating to AddMemberRolesInheritedFrom (20090704172358)
+Migrating to FixUsersCustomValues (20091010093521)
+Migrating to AddMissingIndexesToWorkflows (20091017212227)
+Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+Migrating to AddMissingIndexesToMessages (20091017212644)
+Migrating to AddMissingIndexesToRepositories (20091017212938)
+Migrating to AddMissingIndexesToComments (20091017213027)
+Migrating to AddMissingIndexesToEnumerations (20091017213113)
+Migrating to AddMissingIndexesToWikiPages (20091017213151)
+Migrating to AddMissingIndexesToWatchers (20091017213228)
+Migrating to AddMissingIndexesToAuthSources (20091017213257)
+Migrating to AddMissingIndexesToDocuments (20091017213332)
+Migrating to AddMissingIndexesToTokens (20091017213444)
+Migrating to AddMissingIndexesToChangesets (20091017213536)
+Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+Migrating to AddMissingIndexesToBoards (20091017213757)
+Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+Migrating to AddMissingIndexesToIssues (20091017213910)
+Migrating to AddMissingIndexesToMembers (20091017214015)
+Migrating to AddMissingIndexesToCustomFields (20091017214107)
+Migrating to AddMissingIndexesToQueries (20091017214136)
+Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+Migrating to AddMissingIndexesToNews (20091017214308)
+Migrating to AddMissingIndexesToUsers (20091017214336)
+Migrating to AddMissingIndexesToAttachments (20091017214406)
+Migrating to AddMissingIndexesToWikiContents (20091017214440)
+Migrating to AddMissingIndexesToCustomValues (20091017214519)
+Migrating to AddMissingIndexesToJournals (20091017214611)
+Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+Migrating to AddActivityIndexes (20091025163651)
+Migrating to AddVersionsStatus (20091108092559)
+Migrating to AddViewIssuesPermission (20091114105931)
+Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+Migrating to AddVersionsSharing (20091205124427)
+Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+Migrating to AddIndexToSettingsName (20091220183727)
+Migrating to AddIndexesToIssueStatus (20091220184736)
+Migrating to RemoveEnumerationsOpt (20091225164732)
+Migrating to ChangeWikiContentsTextLimit (20091227112908)
+Migrating to ChangeUsersMailNotificationToString (20100129193402)
+Migrating to UpdateMailNotificationValues (20100129193813)
+Migrating to AddIndexOnChangesetsScmid (20100221100219)
+Migrating to AddIssuesNestedSetsColumns (20100313132032)
+Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+Migrating to ChangeChangesPathLengthLimit (20100705164950)
+Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+Migrating to AddUniqueIndexOnMembers (20101104182107)
+Migrating to AddCustomFieldsVisible (20101107130441)
+Migrating to ChangeProjectsNameLimit (20101114115114)
+Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+Migrating to AddUsersSalt (20110223180944)
+Migrating to SaltUserPasswords (20110223180953)
+Migrating to AddRepositoriesPathEncoding (20110224000000)
+Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+Migrating to AddRepositoriesLogEncoding (20110228000000)
+Migrating to CopyRepositoriesLogEncoding (20110228000100)
+Migrating to AddIndexToUsersType (20110401192910)
+Migrating to AddRolesIssuesVisibility (20110408103312)
+Migrating to AddIssuesIsPrivate (20110412065600)
+Migrating to AddRepositoriesExtraInfo (20110511000000)
+Migrating to CreateChangesetParents (20110902000000)
+Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+Migrating to AddRepositoriesIdentifier (20120115143024)
+Migrating to AddRepositoriesIsDefault (20120115143100)
+Migrating to SetDefaultRepositories (20120115143126)
+Migrating to AddCustomFieldsMultiple (20120127174243)
+Migrating to ChangeUsersLoginLimit (20120205111326)
+Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+Migrating to AddAuthSourcesFilter (20120301153455)
+Migrating to ChangeRepositoriesToFullSti (20120422150750)
+Migrating to AddTrackersFieldsBits (20120705074331)
+Migrating to AddAuthSourcesTimeout (20120707064544)
+Migrating to AddWorkflowsType (20120714122000)
+Migrating to UpdateWorkflowsToSti (20120714122100)
+Migrating to AddWorkflowsRuleFields (20120714122200)
+Migrating to AddBoardsParentId (20120731164049)
+Migrating to AddJournalsPrivateNotes (20120930112914)
+Migrating to AddEnumerationsPositionName (20121026002032)
+Migrating to PopulateEnumerationsPositionName (20121026003537)
+Migrating to AddQueriesType (20121209123234)
+Migrating to UpdateQueriesToSti (20121209123358)
+Migrating to AddAttachmentsDiskDirectory (20121213084931)
+Migrating to SplitDocumentsPermissions (20130110122628)
+Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+Migrating to AddProjectsInheritMembers (20130202090625)
+Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+Migrating to AddIssuesClosedOn (20130215111127)
+Migrating to PopulateIssuesClosedOn (20130215111141)
+Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+Migrating to CreateQueriesRoles (20130602092539)
+Migrating to AddQueriesVisibility (20130710182539)
+Migrating to CreateCustomFieldsRoles (20130713104233)
+Migrating to AddQueriesOptions (20130713111657)
+Migrating to AddUsersMustChangePasswd (20130729070143)
+Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+Migrating to SupportForMultipleCommitKeywords (20131004113137)
+Migrating to AddRepositoriesCreatedOn (20131005100610)
+Migrating to AddCustomFieldsFormatStore (20131124175346)
+Migrating to AddCustomFieldsDescription (20131210180802)
+Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+Migrating to AddPasswordChangedAtToUser (20140903143914)
+Migrating to InsertBuiltinGroups (20140920094058)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:30:18 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_no_data.html.erb (14.6ms)
+  Rendered admin/_menu.html.erb (6.3ms)
+  Rendered admin/index.html.erb within layouts/admin (63.0ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (22.4ms)
+  Rendered layouts/base.html.erb (101.2ms)
+Completed 200 OK in 237.0ms (Views: 175.5ms | ActiveRecord: 11.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:19 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 6.5ms (ActiveRecord: 0.6ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:19 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 2.7ms (ActiveRecord: 0.5ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:30:20 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_no_data.html.erb (1.8ms)
+  Rendered admin/_menu.html.erb (3.8ms)
+  Rendered admin/index.html.erb within layouts/admin (6.4ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.7ms)
+  Rendered layouts/base.html.erb (23.2ms)
+Completed 200 OK in 38.3ms (Views: 28.3ms | ActiveRecord: 3.9ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:20 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 7.3ms (ActiveRecord: 0.7ms)
+Started POST "/admin/default_configuration" for 192.168.209.1 at 2017-05-15 08:30:24 +0000
+Processing by AdminController#default_configuration as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec=", "lang"=>"ja", "commit"=>"デフォルト設定をロード"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/admin
+Completed 302 Found in 1008.3ms (ActiveRecord: 120.4ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:30:25 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_menu.html.erb (4.4ms)
+  Rendered admin/index.html.erb within layouts/admin (4.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.3ms)
+  Rendered layouts/base.html.erb (25.0ms)
+Completed 200 OK in 35.6ms (Views: 28.2ms | ActiveRecord: 3.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:25 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 5.5ms (ActiveRecord: 0.5ms)
+Started GET "/admin/plugins" for 192.168.209.1 at 2017-05-15 08:30:28 +0000
+Processing by AdminController#plugins as HTML
+  Current user: admin (id=1)
+  Rendered admin/plugins.html.erb within layouts/admin (3.5ms)
+  Rendered admin/_menu.html.erb (6.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.3ms)
+  Rendered layouts/base.html.erb (26.1ms)
+Completed 200 OK in 42.1ms (Views: 36.3ms | ActiveRecord: 3.2ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:29 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 5.3ms (ActiveRecord: 0.5ms)
+Started GET "/settings/plugin/redmine_backlogs" for 192.168.209.1 at 2017-05-15 08:30:35 +0000
+Processing by SettingsController#plugin as HTML
+  Parameters: {"id"=>"redmine_backlogs"}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/_settings.html.erb (395.8ms)
+  Rendered settings/plugin.html.erb within layouts/admin (401.0ms)
+  Rendered admin/_menu.html.erb (7.0ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.9ms)
+  Rendered layouts/base.html.erb (30.5ms)
+Completed 200 OK in 453.0ms (Views: 441.4ms | ActiveRecord: 7.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:30:36 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+Filter chain halted as :check_if_plugin_is_configured rendered or redirected
+Completed 406 Not Acceptable in 4.8ms (ActiveRecord: 0.6ms)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to CreateStoriesTasksSprintsAndBurndown (11)
+Migrating to MigrateLegacy (12)
+Migrating to OrderTasksUsingTree (15)
+Migrating to ChangeIssuePositionColumn (17)
+Migrating to AddReleaseTables (19)
+Migrating to NullTaskPosition (23)
+Migrating to ReinstateRemaining (24)
+Migrating to FractionalPoints (25)
+Migrating to AddStoryPositions (26)
+Migrating to AddIndexOnIssuesPosition (27)
+Migrating to SumRemainingHours (29)
+Migrating to UniquePositions (33)
+Migrating to TrustUniquePositions (36)
+Migrating to AddRbProjectSettings (37)
+Migrating to RbAddHistory (38)
+Migrating to AddShowInScrumStatsProjectSetting (39)
+Migrating to AddReleaseIdToIssues (40)
+Migrating to AddSharingToReleases (41)
+Migrating to MigrateReleases (42)
+Migrating to AddReleasesPlannedVelocity (43)
+Migrating to AddReleaseRelationshipToIssues (44)
+Migrating to DropReleaseBurndownDays (45)
+Migrating to AddReleasesIndexes (46)
+Migrating to AddIssuesRbcache (47)
+Migrating to AddIssuesReleaseDayCache (48)
+Migrating to AddReleaseMultiview (49)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/settings/plugin/redmine_backlogs" for 192.168.209.1 at 2017-05-15 08:32:00 +0000
+Processing by SettingsController#plugin as HTML
+  Parameters: {"id"=>"redmine_backlogs"}
+Settings cache cleared.
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/_settings.html.erb (63.9ms)
+  Rendered settings/plugin.html.erb within layouts/admin (65.5ms)
+  Rendered admin/_menu.html.erb (4.3ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.1ms)
+  Rendered layouts/base.html.erb (51.3ms)
+Completed 200 OK in 136.4ms (Views: 109.1ms | ActiveRecord: 18.6ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:32:01 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (9.1ms)
+Completed 200 OK in 27.1ms (Views: 19.1ms | ActiveRecord: 1.2ms)
+Started POST "/settings/plugin/redmine_backlogs" for 192.168.209.1 at 2017-05-15 08:33:15 +0000
+Processing by SettingsController#plugin as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec=", "settings"=>{"story_trackers"=>["1", "2", "3"], "default_story_tracker"=>"1", "task_tracker"=>"4", "wiki_template"=>"", "show_redmine_std_header"=>"enabled", "scrum_stats_menu_position"=>"top", "story_points"=>"1,2,3,5,8", "new_story_position"=>"bottom", "story_follow_task_status"=>"nil", "story_close_status_id"=>"0", "points_burn_direction"=>"down", "burndown_print_width"=>"", "burndown_print_height"=>"", "show_burndown_in_sidebar"=>"enabled", "burndown_timezone"=>"Etc/GMT-0", "taskboard_card_order"=>"story_follows_tasks", "autorefresh_wait"=>"1000", "sprint_sort_order"=>"asc", "sharing_new_sprint_sharingmode"=>"none"}, "commit"=>"適用", "id"=>"redmine_backlogs"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/settings/plugin/redmine_backlogs
+Completed 302 Found in 54.0ms (ActiveRecord: 9.9ms)
+Started GET "/settings/plugin/redmine_backlogs" for 192.168.209.1 at 2017-05-15 08:33:15 +0000
+Processing by SettingsController#plugin as HTML
+  Parameters: {"id"=>"redmine_backlogs"}
+Settings cache cleared.
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/_settings.html.erb (71.1ms)
+  Rendered settings/plugin.html.erb within layouts/admin (73.3ms)
+  Rendered admin/_menu.html.erb (5.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.8ms)
+  Rendered layouts/base.html.erb (51.9ms)
+Completed 200 OK in 139.3ms (Views: 120.1ms | ActiveRecord: 13.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:15 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.4ms)
+Completed 200 OK in 53.3ms (Views: 23.4ms | ActiveRecord: 1.9ms)
+Started GET "/rb/statistics" for 192.168.209.1 at 2017-05-15 08:33:19 +0000
+Processing by RbAllProjectsController#statistics as HTML
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_all_projects/statistics.html.erb within layouts/base (2.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.1ms)
+Completed 200 OK in 57.8ms (Views: 45.8ms | ActiveRecord: 5.0ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:19 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (12.4ms)
+Completed 200 OK in 23.3ms (Views: 15.2ms | ActiveRecord: 0.7ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:33:20 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (29.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.8ms)
+Completed 200 OK in 83.4ms (Views: 69.6ms | ActiveRecord: 8.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:20 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.0ms)
+Completed 200 OK in 17.0ms (Views: 9.3ms | ActiveRecord: 0.7ms)
+Started GET "/my/page" for 192.168.209.1 at 2017-05-15 08:33:21 +0000
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendered issues/_list_simple.html.erb (1.2ms)
+  Rendered my/blocks/_issuesassignedtome.html.erb (29.6ms)
+  Rendered issues/_list_simple.html.erb (0.2ms)
+  Rendered my/blocks/_issuesreportedbyme.html.erb (8.5ms)
+  Rendered my/page.html.erb within layouts/base (45.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.8ms)
+Completed 200 OK in 96.4ms (Views: 80.9ms | ActiveRecord: 8.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:21 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (6.9ms)
+Completed 200 OK in 14.7ms (Views: 8.4ms | ActiveRecord: 0.7ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:33:22 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (3.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.5ms)
+Completed 200 OK in 52.0ms (Views: 41.6ms | ActiveRecord: 5.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:22 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (4.1ms)
+Completed 200 OK in 12.0ms (Views: 5.6ms | ActiveRecord: 0.6ms)
+Started GET "/projects/new" for 192.168.209.1 at 2017-05-15 08:33:24 +0000
+Processing by ProjectsController#new as HTML
+  Current user: admin (id=1)
+  Rendered projects/_form.html.erb (50.1ms)
+  Rendered projects/new.html.erb within layouts/base (54.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.8ms)
+Completed 200 OK in 128.1ms (Views: 83.4ms | ActiveRecord: 7.9ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:24 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.5ms)
+Completed 200 OK in 16.6ms (Views: 7.0ms | ActiveRecord: 1.1ms)
+Started POST "/projects" for 192.168.209.1 at 2017-05-15 08:33:32 +0000
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec=", "project"=>{"name"=>"test", "description"=>"test", "identifier"=>"test", "homepage"=>"", "is_public"=>"1", "inherit_members"=>"0", "enabled_module_names"=>["issue_tracking", "time_tracking", "news", "documents", "files", "wiki", "repository", "boards", "calendar", "gantt", "backlogs", ""], "tracker_ids"=>["1", "2", "3", "4", ""]}, "commit"=>"作成"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/projects/test/settings
+Expire fragment views/vm:3000/robots.txt 0.1ms
+Completed 302 Found in 109.7ms (ActiveRecord: 14.1ms)
+Started GET "/projects/test/settings" for 192.168.209.1 at 2017-05-15 08:33:32 +0000
+Processing by ProjectsController#settings as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_form.html.erb (19.8ms)
+  Rendered projects/_edit.html.erb (21.9ms)
+  Rendered projects/settings/_modules.html.erb (5.4ms)
+  Rendered projects/settings/_members.html.erb (17.6ms)
+  Rendered projects/settings/_versions.html.erb (10.4ms)
+  Rendered projects/settings/_issue_categories.html.erb (4.5ms)
+  Rendered projects/settings/_wiki.html.erb (4.2ms)
+  Rendered projects/settings/_repositories.html.erb (5.2ms)
+  Rendered projects/settings/_boards.html.erb (6.3ms)
+  Rendered projects/settings/_activities.html.erb (12.5ms)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/_project_settings.html.erb (28.2ms)
+  Rendered common/_tabs.html.erb (140.0ms)
+  Rendered projects/settings.html.erb within layouts/base (145.3ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.6ms)
+Completed 200 OK in 252.0ms (Views: 212.8ms | ActiveRecord: 21.0ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:32 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.6ms)
+Completed 200 OK in 14.9ms (Views: 7.7ms | ActiveRecord: 0.8ms)
+Started GET "/projects/test/issues" for 192.168.209.1 at 2017-05-15 08:33:35 +0000
+Processing by IssuesController#index as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered queries/_filters.html.erb (20.5ms)
+  Rendered queries/_columns.html.erb (7.9ms)
+  Rendered issues/_sidebar.html.erb (15.5ms)
+  Rendered issues/index.html.erb within layouts/base (70.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.8ms)
+Completed 200 OK in 287.6ms (Views: 151.8ms | ActiveRecord: 40.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:36 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (8.0ms)
+Completed 200 OK in 19.9ms (Views: 9.6ms | ActiveRecord: 0.8ms)
+Started GET "/rb/hooks/sidebar/project/test" for 192.168.209.1 at 2017-05-15 08:33:36 +0000
+Processing by RbHooksRenderController#view_issues_sidebar as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/view_issues_sidebar.html.erb (11.7ms)
+Completed 200 OK in 87.3ms (Views: 18.2ms | ActiveRecord: 20.1ms)
+Started GET "/rb/master_backlog/test" for 192.168.209.1 at 2017-05-15 08:33:36 +0000
+Processing by RbMasterBacklogsController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_productbacklog.html.erb (2.4ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (6.2ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (1.8ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (4.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (4.2ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_helpers.html.erb (67.6ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/show.html.erb within layouts/rb (111.9ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.1ms)
+Completed 200 OK in 221.0ms (Views: 192.4ms | ActiveRecord: 11.8ms)
+Started GET "/rb/server_variables/project/test.js?context=backlogs" for 192.168.209.1 at 2017-05-15 08:33:37 +0000
+Processing by RbServerVariablesController#project as JS
+  Parameters: {"context"=>"backlogs", "project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (172.4ms)
+Completed 200 OK in 182.7ms (Views: 162.5ms | ActiveRecord: 12.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:33:37 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.1ms)
+Completed 200 OK in 11.7ms (Views: 6.4ms | ActiveRecord: 0.9ms)
+Started GET "/rb/master_backlog/test/menu?project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:33:37 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 32.5ms (Views: 1.3ms | ActiveRecord: 1.6ms)
+Started POST "/rb/story/create" for 192.168.209.1 at 2017-05-15 08:33:51 +0000
+Processing by RbStoriesController#create as */*
+  Parameters: {"next"=>"", "fixed_version_id"=>"", "release_id"=>"", "project_id"=>"1", "tracker_id"=>"1", "subject"=>"へへへ", "status_id"=>"1", "story_points"=>"", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+  Rendered mailer/_issue.text.erb (10.3ms)
+  Rendered mailer/issue_add.text.erb within layouts/mailer (14.5ms)
+  Rendered mailer/_issue.html.erb (2.6ms)
+  Rendered mailer/issue_add.html.erb within layouts/mailer (5.4ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (4.0ms)
+Completed 200 OK in 239.4ms (Views: 8.9ms | ActiveRecord: 20.6ms)
+Started GET "/rb/master_backlog/test/menu?project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:33:52 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 11.4ms (Views: 0.6ms | ActiveRecord: 1.3ms)
+Started POST "/rb/sprint/create" for 192.168.209.1 at 2017-05-15 08:34:09 +0000
+Processing by RbSprintsController#create as */*
+  Parameters: {"name"=>"sprint-1 testtest", "sprint_start_date"=>"開始日未設定", "effective_date"=>"終了日未設定", "description"=>"", "project_id"=>"1", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+  Rendered text template (0.0ms)
+Completed 400 Bad Request in 36.2ms (Views: 5.9ms | ActiveRecord: 2.7ms)
+Started POST "/rb/sprint/create" for 192.168.209.1 at 2017-05-15 08:34:23 +0000
+Processing by RbSprintsController#create as */*
+  Parameters: {"name"=>"sprint", "sprint_start_date"=>"2017-05-15", "effective_date"=>"2017-05-21", "description"=>"", "project_id"=>"1", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (2.5ms)
+Completed 200 OK in 66.7ms (Views: 4.4ms | ActiveRecord: 10.2ms)
+Started GET "/rb/master_backlog/test/menu?sprint_id=1&project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:23 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"sprint_id"=>"1", "project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 58.7ms (Views: 0.9ms | ActiveRecord: 13.6ms)
+Started GET "/rb/master_backlog/test" for 192.168.209.1 at 2017-05-15 08:34:29 +0000
+Processing by RbMasterBacklogsController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (1.1ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (2.6ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_productbacklog.html.erb (0.6ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (9.5ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (10.7ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (0.6ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (1.2ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (1.9ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_helpers.html.erb (10.3ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/show.html.erb within layouts/rb (33.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (7.1ms)
+Completed 200 OK in 140.1ms (Views: 104.6ms | ActiveRecord: 15.1ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:34:29 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.1ms)
+Completed 200 OK in 16.1ms (Views: 9.2ms | ActiveRecord: 0.7ms)
+Started GET "/rb/server_variables/project/test.js?context=backlogs" for 192.168.209.1 at 2017-05-15 08:34:29 +0000
+Processing by RbServerVariablesController#project as JS
+  Parameters: {"context"=>"backlogs", "project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (261.3ms)
+Completed 200 OK in 273.3ms (Views: 249.7ms | ActiveRecord: 14.5ms)
+Started GET "/rb/master_backlog/test/menu?sprint_id=1&project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:30 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"sprint_id"=>"1", "project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 121.3ms (Views: 3.0ms | ActiveRecord: 8.4ms)
+Started GET "/rb/master_backlog/test/menu?project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:30 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 10.5ms (Views: 0.5ms | ActiveRecord: 1.4ms)
+Started PUT "/rb/story/update/1" for 192.168.209.1 at 2017-05-15 08:34:33 +0000
+Processing by RbStoriesController#update as */*
+  Parameters: {"next"=>"", "fixed_version_id"=>"1", "project_id"=>"1", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec=", "id"=>"1"}
+  Current user: admin (id=1)
+  Rendered mailer/_issue.text.erb (5.8ms)
+  Rendered mailer/issue_edit.text.erb within layouts/mailer (9.4ms)
+  Rendered mailer/_issue.html.erb (0.8ms)
+  Rendered mailer/issue_edit.html.erb within layouts/mailer (3.3ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (1.7ms)
+Completed 200 OK in 184.4ms (Views: 2.4ms | ActiveRecord: 22.2ms)
+Started GET "/rb/master_backlog/test/menu?project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:33 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 11.0ms (Views: 0.7ms | ActiveRecord: 1.4ms)
+Started GET "/rb/master_backlog/test/menu?sprint_id=1&project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:33 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"sprint_id"=>"1", "project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 34.0ms (Views: 1.0ms | ActiveRecord: 5.6ms)
+Started GET "/rb/master_backlog/test/menu?sprint_id=1&project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:34:33 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"sprint_id"=>"1", "project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 44.4ms (Views: 0.9ms | ActiveRecord: 5.2ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:36:12 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_menu.html.erb (10.5ms)
+  Rendered admin/index.html.erb within layouts/admin (11.0ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (7.7ms)
+  Rendered layouts/base.html.erb (86.8ms)
+Completed 200 OK in 104.7ms (Views: 89.2ms | ActiveRecord: 11.2ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:13 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (4.8ms)
+Completed 200 OK in 11.1ms (Views: 6.1ms | ActiveRecord: 0.5ms)
+Started GET "/admin/info" for 192.168.209.1 at 2017-05-15 08:36:14 +0000
+Processing by AdminController#info as HTML
+  Current user: admin (id=1)
+  Rendered admin/info.html.erb within layouts/admin (20.0ms)
+  Rendered admin/_menu.html.erb (3.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.6ms)
+  Rendered layouts/base.html.erb (40.8ms)
+Completed 200 OK in 90.8ms (Views: 64.1ms | ActiveRecord: 5.3ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:15 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (6.1ms)
+Completed 200 OK in 14.0ms (Views: 7.4ms | ActiveRecord: 0.8ms)
+Started GET "/users/1" for 192.168.209.1 at 2017-05-15 08:36:26 +0000
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Current user: admin (id=1)
+  Rendered users/show.html.erb within layouts/base (15.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.0ms)
+Completed 200 OK in 116.5ms (Views: 53.5ms | ActiveRecord: 13.9ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:26 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.2ms)
+Completed 200 OK in 16.1ms (Views: 8.8ms | ActiveRecord: 1.1ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:36:44 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (11.3ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.0ms)
+Completed 200 OK in 58.5ms (Views: 47.1ms | ActiveRecord: 6.0ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:44 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (3.7ms)
+Completed 200 OK in 9.9ms (Views: 5.0ms | ActiveRecord: 0.6ms)
+Started GET "/projects/test" for 192.168.209.1 at 2017-05-15 08:36:46 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_members_box.html.erb (1.2ms)
+  Rendered projects/_sidebar.html.erb (2.3ms)
+  Rendered projects/show.html.erb within layouts/base (24.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.8ms)
+Completed 200 OK in 147.7ms (Views: 88.4ms | ActiveRecord: 25.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:47 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (6.9ms)
+Completed 200 OK in 17.0ms (Views: 9.1ms | ActiveRecord: 1.0ms)
+Started GET "/rb/projects/test/taskboard" for 192.168.209.1 at 2017-05-15 08:36:49 +0000
+Processing by RbTaskboardsController#current as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/rb/taskboards/1
+Completed 302 Found in 12.7ms (ActiveRecord: 1.7ms)
+Started GET "/rb/taskboards/1" for 192.168.209.1 at 2017-05-15 08:36:50 +0000
+Processing by RbTaskboardsController#show as HTML
+  Parameters: {"sprint_id"=>"1"}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_tooltip.html.erb (7.2ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_tasks/_task.html.erb (4.7ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_impediments/_impediment.html.erb (3.2ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_taskboards/show.html.erb within layouts/rb (76.7ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.2ms)
+Completed 200 OK in 178.2ms (Views: 142.0ms | ActiveRecord: 15.2ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:36:50 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.1ms)
+Completed 200 OK in 11.8ms (Views: 6.3ms | ActiveRecord: 0.7ms)
+Started GET "/rb/server_variables/sprint/1.js?context=taskboard" for 192.168.209.1 at 2017-05-15 08:36:50 +0000
+Processing by RbServerVariablesController#sprint as JS
+  Parameters: {"context"=>"taskboard", "sprint_id"=>"1"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.1ms)
+Completed 200 OK in 17.8ms (Views: 7.1ms | ActiveRecord: 2.0ms)
+Started GET "/rb/releases/test" for 192.168.209.1 at 2017-05-15 08:37:52 +0000
+Processing by RbReleasesController#index as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in #<Module:0x007f0367fe6368> instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_releases/index.html.erb within layouts/base (27.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (6.4ms)
+Completed 200 OK in 143.5ms (Views: 118.1ms | ActiveRecord: 11.2ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:37:53 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (3.6ms)
+Completed 200 OK in 11.3ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+Started GET "/rb/master_backlog/test" for 192.168.209.1 at 2017-05-15 08:37:54 +0000
+Processing by RbMasterBacklogsController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (1.1ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (5.6ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (7.7ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_productbacklog.html.erb (0.7ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (1.5ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_sprints/_sprint.html.erb (0.4ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (0.0ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/_backlog.html.erb (0.8ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_story.html.erb (1.8ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_stories/_helpers.html.erb (9.8ms)
+  Rendered plugins/redmine_backlogs/app/views/rb_master_backlogs/show.html.erb within layouts/rb (29.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.1ms)
+Completed 200 OK in 130.9ms (Views: 91.9ms | ActiveRecord: 15.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:37:54 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.2ms)
+Completed 200 OK in 12.7ms (Views: 6.7ms | ActiveRecord: 0.7ms)
+Started GET "/rb/server_variables/project/test.js?context=backlogs" for 192.168.209.1 at 2017-05-15 08:37:54 +0000
+Processing by RbServerVariablesController#project as JS
+  Parameters: {"context"=>"backlogs", "project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (210.6ms)
+Completed 200 OK in 217.1ms (Views: 201.3ms | ActiveRecord: 10.9ms)
+Started GET "/rb/master_backlog/test/menu?sprint_id=1&project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:37:55 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"sprint_id"=>"1", "project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 117.2ms (Views: 3.3ms | ActiveRecord: 15.5ms)
+Started GET "/rb/master_backlog/test/menu?project_id=1&authenticity_token=25yzOmGN0dmWi3KOA4q24E3sBAMK%2FDbqY9HwmOx6bec%3D" for 192.168.209.1 at 2017-05-15 08:37:55 +0000
+Processing by RbMasterBacklogsController#menu as JSON
+  Parameters: {"project_id"=>"test", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec="}
+  Current user: admin (id=1)
+Completed 200 OK in 21.2ms (Views: 0.9ms | ActiveRecord: 1.4ms)
+Started GET "/projects/test/roadmap" for 192.168.209.1 at 2017-05-15 08:37:55 +0000
+Processing by VersionsController#index as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in #<Module:0x007f0367fe6368> instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered versions/_overview.html.erb (25.4ms)
+  Rendered versions/index.html.erb within layouts/base (40.0ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.7ms)
+Completed 200 OK in 190.9ms (Views: 146.6ms | ActiveRecord: 18.9ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:37:55 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (3.5ms)
+Completed 200 OK in 9.6ms (Views: 5.0ms | ActiveRecord: 0.5ms)
+Started GET "/projects/test/activity" for 192.168.209.1 at 2017-05-15 08:37:56 +0000
+Processing by ActivitiesController#index as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in #<Module:0x007f0367fe6368> instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered activities/index.html.erb within layouts/base (19.9ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.0ms)
+Completed 200 OK in 176.0ms (Views: 98.8ms | ActiveRecord: 20.2ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:37:57 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.1ms)
+Completed 200 OK in 14.7ms (Views: 8.9ms | ActiveRecord: 0.6ms)
+Started GET "/projects/test" for 192.168.209.1 at 2017-05-15 08:37:58 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_members_box.html.erb (0.0ms)
+  Rendered projects/_sidebar.html.erb (1.0ms)
+  Rendered projects/show.html.erb within layouts/base (14.7ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.9ms)
+Completed 200 OK in 135.4ms (Views: 90.6ms | ActiveRecord: 16.6ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:37:58 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.2ms)
+Completed 200 OK in 12.3ms (Views: 6.6ms | ActiveRecord: 0.5ms)
+Started GET "/projects/test/issues/calendar" for 192.168.209.1 at 2017-05-15 08:38:00 +0000
+Processing by CalendarsController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in #<Module:0x007f0367fe6368> instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered queries/_filters.html.erb (17.5ms)
+  Rendered common/_calendar.html.erb (7.2ms)
+  Rendered issues/_sidebar.html.erb (14.2ms)
+  Rendered calendars/show.html.erb within layouts/base (53.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.9ms)
+Completed 200 OK in 189.6ms (Views: 120.5ms | ActiveRecord: 22.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:38:00 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (6.3ms)
+Completed 200 OK in 15.6ms (Views: 9.1ms | ActiveRecord: 0.8ms)
+Started GET "/rb/hooks/sidebar/project/test" for 192.168.209.1 at 2017-05-15 08:38:01 +0000
+Processing by RbHooksRenderController#view_issues_sidebar as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/view_issues_sidebar.html.erb (7.8ms)
+Completed 200 OK in 23.5ms (Views: 8.1ms | ActiveRecord: 3.5ms)
+Started GET "/projects/test/issues/gantt" for 192.168.209.1 at 2017-05-15 08:38:03 +0000
+Processing by GanttsController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: The InstanceMethods module inside ActiveSupport::Concern will be no longer included automatically. Please define instance methods directly in #<Module:0x007f0367fe6368> instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered queries/_filters.html.erb (17.5ms)
+  Rendered issues/_sidebar.html.erb (24.0ms)
+  Rendered gantts/show.html.erb within layouts/base (124.1ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.0ms)
+Completed 200 OK in 247.7ms (Views: 182.7ms | ActiveRecord: 29.8ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:38:03 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (6.7ms)
+Completed 200 OK in 17.2ms (Views: 8.3ms | ActiveRecord: 0.6ms)
+Started GET "/rb/hooks/sidebar/project/test" for 192.168.209.1 at 2017-05-15 08:38:03 +0000
+Processing by RbHooksRenderController#view_issues_sidebar as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/backlogs/view_issues_sidebar.html.erb (6.8ms)
+Completed 200 OK in 26.5ms (Views: 6.8ms | ActiveRecord: 6.5ms)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Migrating to Setup (1)
+Migrating to IssueMove (2)
+Migrating to IssueAddNote (3)
+Migrating to ExportPdf (4)
+Migrating to IssueStartDate (5)
+Migrating to CalendarAndActivity (6)
+Migrating to CreateJournals (7)
+Migrating to CreateUserPreferences (8)
+Migrating to AddHideMailPref (9)
+Migrating to CreateComments (10)
+Migrating to AddNewsCommentsCount (11)
+Migrating to AddCommentsPermissions (12)
+Migrating to CreateQueries (13)
+Migrating to AddQueriesPermissions (14)
+Migrating to CreateRepositories (15)
+Migrating to AddRepositoriesPermissions (16)
+Migrating to CreateSettings (17)
+Migrating to SetDocAndFilesNotifications (18)
+Migrating to AddIssueStatusPosition (19)
+Migrating to AddRolePosition (20)
+Migrating to AddTrackerPosition (21)
+Migrating to SerializePossiblesValues (22)
+Migrating to AddTrackerIsInRoadmap (23)
+Migrating to AddRoadmapPermission (24)
+Migrating to AddSearchPermission (25)
+Migrating to AddRepositoryLoginAndPassword (26)
+Migrating to CreateWikis (27)
+Migrating to CreateWikiPages (28)
+Migrating to CreateWikiContents (29)
+Migrating to AddProjectsFeedsPermissions (30)
+Migrating to AddRepositoryRootUrl (31)
+Migrating to CreateTimeEntries (32)
+Migrating to AddTimelogPermissions (33)
+Migrating to CreateChangesets (34)
+Migrating to CreateChanges (35)
+Migrating to AddChangesetCommitDate (36)
+Migrating to AddProjectIdentifier (37)
+Migrating to AddCustomFieldIsFilter (38)
+Migrating to CreateWatchers (39)
+Migrating to CreateChangesetsIssues (40)
+Migrating to RenameCommentToComments (41)
+Migrating to CreateIssueRelations (42)
+Migrating to AddRelationsPermissions (43)
+Migrating to SetLanguageLengthToFive (44)
+Migrating to CreateBoards (45)
+Migrating to CreateMessages (46)
+Migrating to AddBoardsPermissions (47)
+Migrating to AllowNullVersionEffectiveDate (48)
+Migrating to AddWikiDestroyPagePermission (49)
+Migrating to AddWikiAttachmentsPermissions (50)
+Migrating to AddProjectStatus (51)
+Migrating to AddChangesRevision (52)
+Migrating to AddChangesBranch (53)
+Migrating to AddChangesetsScmid (54)
+Migrating to AddRepositoriesType (55)
+Migrating to AddRepositoriesChangesPermission (56)
+Migrating to AddVersionsWikiPageTitle (57)
+Migrating to AddIssueCategoriesAssignedToId (58)
+Migrating to AddRolesAssignable (59)
+Migrating to ChangeChangesetsCommitterLimit (60)
+Migrating to AddRolesBuiltin (61)
+Migrating to InsertBuiltinRoles (62)
+Migrating to AddRolesPermissions (63)
+Migrating to DropPermissions (64)
+Migrating to AddSettingsUpdatedOn (65)
+Migrating to AddCustomValueCustomizedIndex (66)
+Migrating to CreateWikiRedirects (67)
+Migrating to CreateEnabledModules (68)
+Migrating to AddIssuesEstimatedHours (69)
+Migrating to ChangeAttachmentsContentTypeLimit (70)
+Migrating to AddQueriesColumnNames (71)
+Migrating to AddEnumerationsPosition (72)
+Migrating to AddEnumerationsIsDefault (73)
+Migrating to AddAuthSourcesTls (74)
+Migrating to AddMembersMailNotification (75)
+Migrating to AllowNullPosition (76)
+Migrating to RemoveIssueStatusesHtmlColor (77)
+Migrating to AddCustomFieldsPosition (78)
+Migrating to AddUserPreferencesTimeZone (79)
+Migrating to AddUsersType (80)
+Migrating to CreateProjectsTrackers (81)
+Migrating to AddMessagesLocked (82)
+Migrating to AddMessagesSticky (83)
+Migrating to ChangeAuthSourcesAccountLimit (84)
+Migrating to AddRoleTrackerOldStatusIndexToWorkflows (85)
+Migrating to AddCustomFieldsSearchable (86)
+Migrating to ChangeProjectsDescriptionToText (87)
+Migrating to AddCustomFieldsDefaultValue (88)
+Migrating to AddAttachmentsDescription (89)
+Migrating to ChangeVersionsNameLimit (90)
+Migrating to ChangeChangesetsRevisionToString (91)
+Migrating to ChangeChangesFromRevisionToString (92)
+Migrating to AddWikiPagesProtected (93)
+Migrating to ChangeProjectsHomepageLimit (94)
+Migrating to AddWikiPagesParentId (95)
+Migrating to AddCommitAccessPermission (96)
+Migrating to AddViewWikiEditsPermission (97)
+Migrating to SetTopicAuthorsAsWatchers (98)
+Migrating to AddDeleteWikiPagesAttachmentsPermission (99)
+Migrating to AddChangesetsUserId (100)
+Migrating to PopulateChangesetsUserId (101)
+Migrating to AddCustomFieldsEditable (102)
+Migrating to SetCustomFieldsEditable (103)
+Migrating to AddProjectsLftAndRgt (104)
+Migrating to BuildProjectsTree (105)
+Migrating to RemoveProjectsProjectsCount (106)
+Migrating to AddOpenIdAuthenticationTables (107)
+Migrating to AddIdentityUrlToUsers (108)
+Migrating to AddWatchersUserIdTypeIndex (20090214190337)
+Migrating to AddQueriesSortCriteria (20090312172426)
+Migrating to AddProjectsTrackersUniqueIndex (20090312194159)
+Migrating to ExtendSettingsName (20090318181151)
+Migrating to AddTypeToEnumerations (20090323224724)
+Migrating to UpdateEnumerationsToSti (20090401221305)
+Migrating to AddActiveFieldToEnumerations (20090401231134)
+Migrating to AddProjectToEnumerations (20090403001910)
+Migrating to AddParentIdToEnumerations (20090406161854)
+Migrating to AddQueriesGroupBy (20090425161243)
+Migrating to CreateMemberRoles (20090503121501)
+Migrating to PopulateMemberRoles (20090503121505)
+Migrating to DropMembersRoleId (20090503121510)
+Migrating to FixMessagesStickyNull (20090614091200)
+Migrating to PopulateUsersType (20090704172350)
+Migrating to CreateGroupsUsers (20090704172355)
+Migrating to AddMemberRolesInheritedFrom (20090704172358)
+Migrating to FixUsersCustomValues (20091010093521)
+Migrating to AddMissingIndexesToWorkflows (20091017212227)
+Migrating to AddMissingIndexesToCustomFieldsProjects (20091017212457)
+Migrating to AddMissingIndexesToMessages (20091017212644)
+Migrating to AddMissingIndexesToRepositories (20091017212938)
+Migrating to AddMissingIndexesToComments (20091017213027)
+Migrating to AddMissingIndexesToEnumerations (20091017213113)
+Migrating to AddMissingIndexesToWikiPages (20091017213151)
+Migrating to AddMissingIndexesToWatchers (20091017213228)
+Migrating to AddMissingIndexesToAuthSources (20091017213257)
+Migrating to AddMissingIndexesToDocuments (20091017213332)
+Migrating to AddMissingIndexesToTokens (20091017213444)
+Migrating to AddMissingIndexesToChangesets (20091017213536)
+Migrating to AddMissingIndexesToIssueCategories (20091017213642)
+Migrating to AddMissingIndexesToMemberRoles (20091017213716)
+Migrating to AddMissingIndexesToBoards (20091017213757)
+Migrating to AddMissingIndexesToUserPreferences (20091017213835)
+Migrating to AddMissingIndexesToIssues (20091017213910)
+Migrating to AddMissingIndexesToMembers (20091017214015)
+Migrating to AddMissingIndexesToCustomFields (20091017214107)
+Migrating to AddMissingIndexesToQueries (20091017214136)
+Migrating to AddMissingIndexesToTimeEntries (20091017214236)
+Migrating to AddMissingIndexesToNews (20091017214308)
+Migrating to AddMissingIndexesToUsers (20091017214336)
+Migrating to AddMissingIndexesToAttachments (20091017214406)
+Migrating to AddMissingIndexesToWikiContents (20091017214440)
+Migrating to AddMissingIndexesToCustomValues (20091017214519)
+Migrating to AddMissingIndexesToJournals (20091017214611)
+Migrating to AddMissingIndexesToIssueRelations (20091017214644)
+Migrating to AddMissingIndexesToWikiRedirects (20091017214720)
+Migrating to AddMissingIndexesToCustomFieldsTrackers (20091017214750)
+Migrating to AddActivityIndexes (20091025163651)
+Migrating to AddVersionsStatus (20091108092559)
+Migrating to AddViewIssuesPermission (20091114105931)
+Migrating to AddDefaultDoneRatioToIssueStatus (20091123212029)
+Migrating to AddVersionsSharing (20091205124427)
+Migrating to AddLftAndRgtIndexesToProjects (20091220183509)
+Migrating to AddIndexToSettingsName (20091220183727)
+Migrating to AddIndexesToIssueStatus (20091220184736)
+Migrating to RemoveEnumerationsOpt (20091225164732)
+Migrating to ChangeWikiContentsTextLimit (20091227112908)
+Migrating to ChangeUsersMailNotificationToString (20100129193402)
+Migrating to UpdateMailNotificationValues (20100129193813)
+Migrating to AddIndexOnChangesetsScmid (20100221100219)
+Migrating to AddIssuesNestedSetsColumns (20100313132032)
+Migrating to AddIndexOnIssuesNestedSet (20100313171051)
+Migrating to ChangeChangesPathLengthLimit (20100705164950)
+Migrating to EnableCalendarAndGanttModulesWhereAppropriate (20100819172912)
+Migrating to AddUniqueIndexOnMembers (20101104182107)
+Migrating to AddCustomFieldsVisible (20101107130441)
+Migrating to ChangeProjectsNameLimit (20101114115114)
+Migrating to ChangeProjectsIdentifierLimit (20101114115359)
+Migrating to AddWorkflowsAssigneeAndAuthor (20110220160626)
+Migrating to AddUsersSalt (20110223180944)
+Migrating to SaltUserPasswords (20110223180953)
+Migrating to AddRepositoriesPathEncoding (20110224000000)
+Migrating to ChangeRepositoriesPasswordLimit (20110226120112)
+Migrating to ChangeAuthSourcesAccountPasswordLimit (20110226120132)
+Migrating to ChangeJournalDetailsValuesToText (20110227125750)
+Migrating to AddRepositoriesLogEncoding (20110228000000)
+Migrating to CopyRepositoriesLogEncoding (20110228000100)
+Migrating to AddIndexToUsersType (20110401192910)
+Migrating to AddRolesIssuesVisibility (20110408103312)
+Migrating to AddIssuesIsPrivate (20110412065600)
+Migrating to AddRepositoriesExtraInfo (20110511000000)
+Migrating to CreateChangesetParents (20110902000000)
+Migrating to AddUniqueIndexToIssueRelations (20111201201315)
+Migrating to AddRepositoriesIdentifier (20120115143024)
+Migrating to AddRepositoriesIsDefault (20120115143100)
+Migrating to SetDefaultRepositories (20120115143126)
+Migrating to AddCustomFieldsMultiple (20120127174243)
+Migrating to ChangeUsersLoginLimit (20120205111326)
+Migrating to ChangeAttachmentsContainerDefaults (20120223110929)
+Migrating to AddAuthSourcesFilter (20120301153455)
+Migrating to ChangeRepositoriesToFullSti (20120422150750)
+Migrating to AddTrackersFieldsBits (20120705074331)
+Migrating to AddAuthSourcesTimeout (20120707064544)
+Migrating to AddWorkflowsType (20120714122000)
+Migrating to UpdateWorkflowsToSti (20120714122100)
+Migrating to AddWorkflowsRuleFields (20120714122200)
+Migrating to AddBoardsParentId (20120731164049)
+Migrating to AddJournalsPrivateNotes (20120930112914)
+Migrating to AddEnumerationsPositionName (20121026002032)
+Migrating to PopulateEnumerationsPositionName (20121026003537)
+Migrating to AddQueriesType (20121209123234)
+Migrating to UpdateQueriesToSti (20121209123358)
+Migrating to AddAttachmentsDiskDirectory (20121213084931)
+Migrating to SplitDocumentsPermissions (20130110122628)
+Migrating to AddUniqueIndexOnTokensValue (20130201184705)
+Migrating to AddProjectsInheritMembers (20130202090625)
+Migrating to AddUniqueIndexOnCustomFieldsTrackers (20130207175206)
+Migrating to AddUniqueIndexOnCustomFieldsProjects (20130207181455)
+Migrating to ChangeUsersLastnameLengthTo255 (20130215073721)
+Migrating to AddIssuesClosedOn (20130215111127)
+Migrating to PopulateIssuesClosedOn (20130215111141)
+Migrating to RemoveIssuesDefaultFkValues (20130217094251)
+Migrating to CreateQueriesRoles (20130602092539)
+Migrating to AddQueriesVisibility (20130710182539)
+Migrating to CreateCustomFieldsRoles (20130713104233)
+Migrating to AddQueriesOptions (20130713111657)
+Migrating to AddUsersMustChangePasswd (20130729070143)
+Migrating to RemoveEolsFromAttachmentsFilename (20130911193200)
+Migrating to SupportForMultipleCommitKeywords (20131004113137)
+Migrating to AddRepositoriesCreatedOn (20131005100610)
+Migrating to AddCustomFieldsFormatStore (20131124175346)
+Migrating to AddCustomFieldsDescription (20131210180802)
+Migrating to RemoveCustomFieldsMinMaxLengthDefaultValues (20131214094309)
+Migrating to StoreRelationTypeInJournalDetails (20131215104612)
+Migrating to DeleteOrphanTimeEntriesCustomValues (20131218183023)
+Migrating to ChangeChangesetsCommentsLimit (20140228130325)
+Migrating to AddPasswordChangedAtToUser (20140903143914)
+Migrating to InsertBuiltinGroups (20140920094058)
+Connecting to database specified by database.yml
+Creating scope :sorted. Overwriting existing method User.sorted.
+Creating scope :sorted. Overwriting existing method Group.sorted.
+Creating scope :system. Overwriting existing method Enumeration.system.
+Started GET "/" for 192.168.209.1 at 2017-05-15 08:42:41 +0000
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendered welcome/index.html.erb within layouts/base (68.4ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (18.6ms)
+Completed 200 OK in 256.4ms (Views: 173.5ms | ActiveRecord: 14.0ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:41 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (8.5ms)
+Completed 200 OK in 19.2ms (Views: 15.0ms | ActiveRecord: 0.4ms)
+Started GET "/projects/test" for 192.168.209.1 at 2017-05-15 08:42:45 +0000
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+  Rendered projects/_members_box.html.erb (0.6ms)
+  Rendered projects/_sidebar.html.erb (1.7ms)
+  Rendered projects/show.html.erb within layouts/base (22.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.4ms)
+Completed 200 OK in 188.8ms (Views: 124.5ms | ActiveRecord: 16.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:45 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.2ms)
+Completed 200 OK in 14.1ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+Started GET "/projects/test/wiki" for 192.168.209.1 at 2017-05-15 08:42:48 +0000
+Processing by WikiController#show as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered attachments/_form.html.erb (5.3ms)
+  Rendered wiki/edit.html.erb within layouts/base (14.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.4ms)
+Completed 200 OK in 148.6ms (Views: 81.6ms | ActiveRecord: 11.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:49 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.4ms)
+Completed 200 OK in 16.6ms (Views: 7.0ms | ActiveRecord: 0.7ms)
+Started GET "/projects/test/roadmap" for 192.168.209.1 at 2017-05-15 08:42:51 +0000
+Processing by VersionsController#index as HTML
+  Parameters: {"project_id"=>"test"}
+  Current user: admin (id=1)
+  Rendered versions/_overview.html.erb (46.8ms)
+  Rendered versions/index.html.erb within layouts/base (65.5ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.4ms)
+Completed 200 OK in 181.1ms (Views: 133.7ms | ActiveRecord: 17.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:51 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.8ms)
+Completed 200 OK in 16.0ms (Views: 7.2ms | ActiveRecord: 0.7ms)
+Started GET "/projects/test/activity" for 192.168.209.1 at 2017-05-15 08:42:52 +0000
+Processing by ActivitiesController#index as HTML
+  Parameters: {"id"=>"test"}
+  Current user: admin (id=1)
+Completed 304 Not Modified in 109.4ms (ActiveRecord: 13.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:52 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (7.1ms)
+Completed 200 OK in 14.8ms (Views: 8.3ms | ActiveRecord: 0.6ms)
+Started GET "/admin" for 192.168.209.1 at 2017-05-15 08:42:55 +0000
+Processing by AdminController#index as HTML
+  Current user: admin (id=1)
+  Rendered admin/_menu.html.erb (6.2ms)
+  Rendered admin/index.html.erb within layouts/admin (10.8ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.6ms)
+  Rendered layouts/base.html.erb (46.5ms)
+Completed 200 OK in 76.1ms (Views: 63.1ms | ActiveRecord: 6.1ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:55 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (9.7ms)
+Completed 200 OK in 21.3ms (Views: 11.2ms | ActiveRecord: 0.7ms)
+Started GET "/settings" for 192.168.209.1 at 2017-05-15 08:42:57 +0000
+Processing by SettingsController#index as HTML
+  Current user: admin (id=1)
+  Rendered settings/_general.html.erb (16.3ms)
+  Rendered settings/_display.html.erb (18.7ms)
+  Rendered settings/_authentication.html.erb (12.7ms)
+  Rendered settings/_projects.html.erb (81.6ms)
+  Rendered queries/_columns.html.erb (6.5ms)
+  Rendered settings/_issues.html.erb (41.1ms)
+  Rendered settings/_notifications.html.erb (7.7ms)
+  Rendered settings/_mail_handler.html.erb (6.9ms)
+  Rendered settings/_repositories.html.erb (45.9ms)
+  Rendered common/_tabs.html.erb (249.5ms)
+  Rendered settings/edit.html.erb within layouts/admin (252.0ms)
+  Rendered admin/_menu.html.erb (3.5ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.7ms)
+  Rendered layouts/base.html.erb (39.7ms)
+Completed 200 OK in 316.8ms (Views: 288.4ms | ActiveRecord: 17.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:42:57 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.8ms)
+Completed 200 OK in 12.5ms (Views: 7.2ms | ActiveRecord: 0.5ms)
+Started POST "/settings/edit" for 192.168.209.1 at 2017-05-15 08:43:12 +0000
+Processing by SettingsController#edit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"25yzOmGN0dmWi3KOA4q24E3sBAMK/DbqY9HwmOx6bec=", "settings"=>{"app_title"=>"Redmine", "welcome_text"=>"", "attachment_max_size"=>"5120", "per_page_options"=>"25,50,100", "activity_days_default"=>"30", "host_name"=>"localhost:3000", "protocol"=>"http", "text_formatting"=>"markdown", "cache_formatted_text"=>"0", "wiki_compression"=>"", "feeds_limit"=>"15", "file_max_size_displayed"=>"512", "diff_max_lines_displayed"=>"1500", "repositories_encodings"=>""}, "commit"=>"保存"}
+  Current user: admin (id=1)
+Redirected to http://vm:3000/settings
+Completed 302 Found in 109.5ms (ActiveRecord: 49.2ms)
+Started GET "/settings" for 192.168.209.1 at 2017-05-15 08:43:12 +0000
+Processing by SettingsController#index as HTML
+Settings cache cleared.
+  Current user: admin (id=1)
+  Rendered settings/_general.html.erb (14.7ms)
+  Rendered settings/_display.html.erb (13.0ms)
+  Rendered settings/_authentication.html.erb (12.2ms)
+  Rendered settings/_projects.html.erb (11.8ms)
+  Rendered queries/_columns.html.erb (4.6ms)
+  Rendered settings/_issues.html.erb (17.0ms)
+  Rendered settings/_notifications.html.erb (0.1ms)
+  Rendered settings/_mail_handler.html.erb (6.5ms)
+  Rendered settings/_repositories.html.erb (19.6ms)
+  Rendered common/_tabs.html.erb (99.6ms)
+  Rendered settings/edit.html.erb within layouts/admin (100.5ms)
+  Rendered admin/_menu.html.erb (4.5ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.5ms)
+  Rendered layouts/base.html.erb (41.9ms)
+Completed 200 OK in 154.5ms (Views: 129.8ms | ActiveRecord: 19.5ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:43:13 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (4.8ms)
+Completed 200 OK in 10.7ms (Views: 5.8ms | ActiveRecord: 0.5ms)
+Started GET "/rb/statistics" for 192.168.209.1 at 2017-05-15 08:44:01 +0000
+Processing by RbAllProjectsController#statistics as HTML
+  Current user: admin (id=1)
+  Rendered plugins/redmine_backlogs/app/views/rb_all_projects/statistics.html.erb within layouts/base (33.2ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.5ms)
+Completed 200 OK in 106.9ms (Views: 66.8ms | ActiveRecord: 11.7ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:44:01 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (5.2ms)
+Completed 200 OK in 10.8ms (Views: 6.6ms | ActiveRecord: 0.7ms)
+Started GET "/projects" for 192.168.209.1 at 2017-05-15 08:44:08 +0000
+Processing by ProjectsController#index as HTML
+  Current user: admin (id=1)
+  Rendered projects/index.html.erb within layouts/base (14.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (5.4ms)
+Completed 200 OK in 78.6ms (Views: 52.1ms | ActiveRecord: 5.4ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:44:08 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (3.5ms)
+Completed 200 OK in 11.1ms (Views: 5.0ms | ActiveRecord: 0.7ms)
+Started GET "/my/page" for 192.168.209.1 at 2017-05-15 08:44:10 +0000
+Processing by MyController#page as HTML
+  Current user: admin (id=1)
+  Rendered issues/_list_simple.html.erb (1.1ms)
+  Rendered my/blocks/_issuesassignedtome.html.erb (18.9ms)
+  Rendered issues/_list_simple.html.erb (6.5ms)
+  Rendered my/blocks/_issuesreportedbyme.html.erb (16.1ms)
+  Rendered my/page.html.erb within layouts/base (41.1ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (3.8ms)
+Completed 200 OK in 93.1ms (Views: 78.3ms | ActiveRecord: 8.6ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:44:10 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (3.7ms)
+Completed 200 OK in 10.2ms (Views: 4.9ms | ActiveRecord: 0.7ms)
+Started GET "/" for 192.168.209.1 at 2017-05-15 08:44:11 +0000
+Processing by WelcomeController#index as HTML
+  Current user: admin (id=1)
+  Rendered welcome/index.html.erb within layouts/base (4.6ms)
+  Rendered plugins/redmine_backlogs/app/views/hooks/_rb_include_scripts.html.erb (4.1ms)
+Completed 200 OK in 52.2ms (Views: 39.3ms | ActiveRecord: 6.3ms)
+Started GET "/rb/server_variables.js" for 192.168.209.1 at 2017-05-15 08:44:11 +0000
+Processing by RbServerVariablesController#index as JS
+  Current user: admin (id=1)
+DEPRECATION WARNING: Passing a template handler in the template name is deprecated. You can simply remove the handler name or pass render :handlers => [:erb] instead. (called from realtime at /usr/local/lib/ruby/2.2.0/benchmark.rb:303)
+  Rendered plugins/redmine_backlogs/app/views/rb_server_variables/show.js.erb (4.9ms)
+Completed 200 OK in 11.2ms (Views: 5.9ms | ActiveRecord: 0.6ms)
