@@ -6,7 +6,7 @@ services:
 #    image: library/redmine:3.3
     build: ./redmine
     ports:
-      - localhost:3000:3000
+      - 127.0.0.1:3000:3000
     environment:
       REDMINE_DB_MYSQL: db
       REDMINE_DB_PASSWORD: example
@@ -19,7 +19,6 @@ services:
     restart: always
 
   db:
-#    image: library/mariadb:5.5.56
     image: library/mariadb:10.1.23
     volumes:
       - ./volume/mariadb:/var/lib/mysql
