@@ -43,6 +43,11 @@ Stop
 docker-compose down
 ```
 
+Preferences
+----------
+* url prefix is /redmine
+
+
 References
 ----------
 * [library/redmine](https://hub.docker.com/_/redmine/)
