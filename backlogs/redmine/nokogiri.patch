@@ -1,0 +1,13 @@
+diff --git a/Gemfile b/Gemfile
+index 8d76144..d37d82c 100644
+--- a/Gemfile
++++ b/Gemfile
+@@ -10,7 +10,7 @@ RAILS_VERSION_IS_3 = rails3 =~ deps['rails']
+ 
+ gem "holidays", "~>1.0.3"
+ gem "icalendar"
+-gem "nokogiri", "< 1.6.0"
++gem "nokogiri"
+ gem "open-uri-cached"
+ gem "prawn"
+ gem 'json'

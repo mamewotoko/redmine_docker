@@ -1,23 +1,53 @@
+Redmine with backlogs as docker container
+=========================================
 
-Run
-----
-1. 
+Install
+-------
+1.
+
+```
+sh init.sh
+```
+2. 
+
 ```
 docker-compose build
 ```
-2.
+3.
+
 ```
 docker-compose up -d
 ```
-3. open redmine url http://localhost:3000 
-4. login as admin
-5. load default setting
+4. open redmine url http://localhost:3000 
+5. login as admin
+6. load default setting
    click Manage -> load default setting
-6. install backlogs plugin
+7. install backlogs plugin
+
 ```
 docker exec -it backlogs_redmine_1 bash
-bundle install
-export RAILS_ENV=production
-bundle exec rake db:migrate
-bundle exec rake redmine:backlogs:install
+sh install.sh
 ```
+
+Run
+---
+
+```
+docker-compose up -d
+```
+
+Stop
+----
+
+```
+docker-compose down
+```
+
+References
+----------
+* [library/redmine](https://hub.docker.com/_/redmine/)
+* [backlogs/redmine_backlogs](https://github.com/backlogs/redmine_backlogs)
+
+----
+Takashi Masuyama < mamewotoko@gmail.com >  
+http://mamewo.ddo.jp/
