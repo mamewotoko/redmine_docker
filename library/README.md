@@ -1,5 +1,5 @@
 Redmine as docker container
----------------------------
+===========================
 
 Prepare
 -------
@@ -18,11 +18,12 @@ Run
 docker-compose up -d
 ```
 
-Installed plugins
------------------
+Installed plugins, preferences
+------------------------------
 * [redmine_tagging](https://github.com/Restream/redmine_tagging.git)
 * [sidebar_hide](https://github.com/bdemirkir/sidebar_hide.git)
-
+* header color: `redmine/color.patch`
+* url prefix is /redmine
 
 ----
 Takashi Masuyama < mamewotoko@gmail.com >  

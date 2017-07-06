@@ -1,0 +1,19 @@
+diff --git a/stylesheets/application.css b/stylesheets/application.css
+index a2e62e2..9231032 100644
+--- a/stylesheets/application.css
++++ b/stylesheets/application.css
+@@ -28,6 +28,7 @@ body {
+ #header {
+   background: #455b9d;
+   background: linear-gradient(#4f68b5, #455b9d, #455b9d); /* HSV(222, 50, 76) -> (222, 50, 68) -> (222, 50, 68) */
++  background: #71B280;
+ }
+ 
+ h1, h2, h3, h4 {
+@@ -463,6 +464,7 @@ div.wiki li {
+ 
+ #top-menu {
+   background-color: #2C3957;
++  background-color: #006400;
+ }
+
