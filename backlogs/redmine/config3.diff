@@ -5,4 +5,4 @@ diff -ur before/config/environment.rb after/config/environment.rb
  
  # Initialize the rails application
  RedmineApp::Application.initialize!
-+ActionController::Base.relative_url_root = "/redmine"
++ActionController::Base.relative_url_root = "/redmine_backlogs"

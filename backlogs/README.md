@@ -25,7 +25,6 @@ docker-compose up -d
 7. install backlogs plugin
 
 ```
-docker exec -it backlogs_redmine_1 bash
 sh install.sh
 ```
 
