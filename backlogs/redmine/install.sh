@@ -1,7 +1,10 @@
 #! /bin/sh
+BRANCH=feature/ipad_drag
+#BRANCH=v1.0.6
+
 set -x
 cd plugins
-git clone -b v1.0.6 https://github.com/backlogs/redmine_backlogs.git
+git clone -b $BRANCH https://github.com/backlogs/redmine_backlogs.git
 cd redmine_backlogs
 patch -p1 < ../../nokogiri.patch
 cd ../..

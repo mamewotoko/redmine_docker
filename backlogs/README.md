@@ -21,12 +21,14 @@ docker-compose up -d
 4. open redmine url http://localhost:3000 
 5. login as admin
 6. load default setting
-   click Manage -> load default setting
+   click Administration -> load default setting
 7. install backlogs plugin
 
 ```
 sh install.sh
 ```
+
+8. define status and workflow of tracker named task_tracker 
 
 Run
 ---
