@@ -35,11 +35,6 @@ default:
 
 2. restart redmine container
 
-
-TODO
-----
-* default project should be private
-
 ----
 Takashi Masuyama < mamewotoko@gmail.com >
 http://mamewo.ddo.jp/
