@@ -1,10 +1,12 @@
 #! /bin/sh
 BRANCH=feature/ipad_drag
+GITHUB_URL=https://github.com/mamewotoko/redmine_backlogs.git
 #BRANCH=v1.0.6
+#GITHUB_URL=https://github.com/backlogs/redmine_backlogs.git
 
 set -x
 cd plugins
-git clone -b $BRANCH https://github.com/backlogs/redmine_backlogs.git
+git clone -b $BRANCH $GITHUB_URL
 cd redmine_backlogs
 patch -p1 < ../../nokogiri.patch
 cd ../..
