@@ -44,15 +44,16 @@ Stop
 docker-compose down
 ```
 
-Preferences
-----------
-* url prefix is /redmine
-
+Configuration
+-------------
+* url prefix is /redmine_backlogs/
+  * to configure url prefix, edit last line of redmine/config3.diff
 
 References
 ----------
 * [library/redmine](https://hub.docker.com/_/redmine/)
 * [backlogs/redmine_backlogs](https://github.com/backlogs/redmine_backlogs)
+  * version 2.6.6
 
 ----
 Takashi Masuyama < mamewotoko@gmail.com >  
