@@ -7,3 +7,6 @@ ADD config.ru /usr/src/redmine/
 
 ADD config3.diff /usr/src/redmine/
 RUN patch -p1 < config3.diff
+
+#ADD wait-for /usr/src/redmine/
+# CMD ["./wait-for", "rm3db:3306", "-t", "180", "--", "rails", "server", "-b", "0.0.0.0"]
