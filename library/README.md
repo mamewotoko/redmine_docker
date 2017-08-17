@@ -24,6 +24,7 @@ Installed plugins, preferences
 * [sidebar_hide](https://github.com/bdemirkir/sidebar_hide.git)
 * header color: `redmine/color.patch`
 * url prefix is /redmine
+* configured mariadb to use utf-8 
 
 ----
 Takashi Masuyama < mamewotoko@gmail.com >  

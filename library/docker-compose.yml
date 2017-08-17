@@ -3,7 +3,6 @@ version: '2'
 services:
 
   redmine:
-#    image: library/redmine:3.3
     build: ./redmine
     ports:
       - 127.0.0.1:3000:3000
@@ -19,7 +18,7 @@ services:
     restart: always
 
   db:
-    image: library/mariadb:10.1.23
+    build: ./mariadb
     volumes:
       - ./volume/mariadb:/var/lib/mysql
     environment:

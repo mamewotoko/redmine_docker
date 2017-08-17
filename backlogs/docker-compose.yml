@@ -6,7 +6,7 @@ services:
 #    image: library/redmine:2.6.6
     build: ./redmine
     ports:
-      - 127.0.0.1:3001:3000
+      - 127.0.0.1:3003:3000
     environment:
       REDMINE_DB_MYSQL: db
       REDMINE_DB_PASSWORD: example

@@ -5,7 +5,7 @@ if [ ! -d sidebar_hide ]; then
     git clone -b 0.0.8 https://github.com/bdemirkir/sidebar_hide.git
 fi
 
-if [ -d redmine_tagging ]; then
+if [ ! -d redmine_tagging ]; then
     git clone -b 0.1.5 https://github.com/Restream/redmine_tagging.git
 
     bundle install
