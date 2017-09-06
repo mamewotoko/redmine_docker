@@ -47,6 +47,7 @@ Installed plugins, preferences
 ------------------------------
 * [redmine_tagging](https://github.com/Restream/redmine_tagging.git)
 * [sidebar_hide](https://github.com/bdemirkir/sidebar_hide.git)
+* [clipboard_image_paste](https://github.com/peclik/clipboard_image_paste)
 * header color: `redmine/color.patch`
 * url prefix is /redmine
 * configured mariadb to use utf-8 

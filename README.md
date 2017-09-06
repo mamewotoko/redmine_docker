@@ -35,6 +35,13 @@ default:
 
 2. restart redmine container
 
+Redmine setting checklist
+-------------------------
+- [ ] General -> Text formatting: Markkdown
+- [ ] General -> Host name and path
+- [ ] Display -> Theme
+- [ ] Display -> DHPRoject menu tab for creating new objects: none
+
 ----
 Takashi Masuyama < mamewotoko@gmail.com >
 http://mamewo.ddo.jp/

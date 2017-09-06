@@ -13,3 +13,7 @@ if [ ! -d redmine_tagging ]; then
     bundle exec rake db:migrate RAILS_ENV=production
     bundle exec rake db:migrate_plugins RAILS_ENV=production
 fi
+
+if [ ! -d clipboard_image_paste ]; then
+    git clone https://github.com/peclik/clipboard_image_paste.git clipboard_image_paste
+fi
