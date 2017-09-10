@@ -1,4 +1,4 @@
-Redmine with backlogs as docker container
+Redmine3 with backlogs as docker container
 =========================================
 
 Install
