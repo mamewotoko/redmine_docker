@@ -17,3 +17,8 @@ fi
 if [ ! -d clipboard_image_paste ]; then
     git clone https://github.com/peclik/clipboard_image_paste.git clipboard_image_paste
 fi
+
+if [ ! -d redmine_glossary ]; then
+    git clone -b feature/redmine-3 https://github.com/torutk/redmine_glossary.git
+    bundle exec rake redmine:plugins:migrate RAILS_ENV=production
+fi
